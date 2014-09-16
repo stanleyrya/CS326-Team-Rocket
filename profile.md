@@ -58,12 +58,12 @@ Non CS Courses-
   - Statistics 
   - Physics with Engineering
 
-Jade Hendrick
+Jade Hedrick
 -------------
 
 My name is Jade Hedrick. I switched to the Computer Science major during my last semester and now I'm here for three extra semesters.
 
-Previous CS Curses
+Previous CS Courses
   - Intro to Python
   - Computer Literacy
   - 121
