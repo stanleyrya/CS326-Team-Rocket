@@ -49,8 +49,9 @@ Previous CS Courses-
   -  Programming I & II
   -  Computer Architecture and Assembly Language
   -  Data Structures
-  -  Software Design,Algorithms
-  -  Reasoning with Uncertaint  
+  -  Software Design
+  -  Algorithms
+  -  Reasoning with Uncertainty 
   -  Operating Systems
 
 Non CS Courses-
