@@ -108,3 +108,31 @@ Other courses I’ve taken
   -Statistics
   -Calculus 1 and 2
 
+Ryan Stanley
+-------------
+
+  Hello, my name is Ryan Stanley and I am from both Ashland and Waltham. Back home I am a lifeguard supervisor, swim instructor, and coach at a pool I've been working at for 5 years. I actually signed up for Computer Science by accident, but ended up loving it. Over the summer I interned at Kronos working on testing Android. I also made my own Android app in my spare time (soon to be on the play store!). In the future I'd love to be a self-employed developer, but I wouldn't mind working for a company, maybe even Kronos.
+  
+Previous CS Classes
+  -121
+  -187
+  -220
+  -230
+  -240
+  -250
+
+Current CS Classes
+  -311
+  -320
+  -325
+  -326
+
+Non-CS Classes
+  -Physics 181/182
+  -Calc 1,2,3 and Linear Algebra
+  -Scuba Diving
+  -Karate
+  -Other blah blah blah
+  
+  Fun Fact -
+  I can't ride a bike. Also, I just learned how to snap this year.
