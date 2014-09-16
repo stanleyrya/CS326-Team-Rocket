@@ -27,12 +27,13 @@ Matthew Downes
 I am from Southington, CT and am currently a junior at UMass Amherst. I am majoring in Computer Science with a concentration in Security and Privacy. I have experience in programming in Java and C.
 
 Previous Courses-
-*CS187 Programming with Data Structures, CS220 Programming Methodology
-*CS230 Computer System Principles
-*CS240 Reasoning under Uncertainty 
-*CS250 Introduction to Computation
+  - CS187 Programming with Data Structures
+  - CS220 Programming Methodology
+  - CS230 Computer System Principles
+  - CS240 Reasoning under Uncertainty 
+  - CS250 Introduction to Computation
 
 Non CS Courses-
-*MATH 233 Multivariate Calculus
-*MATH 515 Statistics I
+  - MATH 233 Multivariate Calculus
+  - MATH 515 Statistics I
 
