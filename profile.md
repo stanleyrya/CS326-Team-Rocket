@@ -38,6 +38,7 @@ MATH 233 Multivariate Calculus
 MATH 515 Statistics 
 
 Joe D'Agostino
+--------------
 
 I am from Shrewsbury, MA and I am a Senior at UMass Amherst. I am a Computer Science major with a focus in Security and Privacy.  I have programming experience in several languages such as, Java, C/C++, HTML, Javascript, and Android.
 
