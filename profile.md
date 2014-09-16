@@ -92,21 +92,21 @@ Kelly Finn
   My name is Kelly Finn and I am a senior computer science major from Wilmington. When I graduate I hope to get a job doing technical effects in animation for a major animation company like Disney, Pixar or Dreamworks. Preferably Disney or Dreamworks because I believe Pixar is going through a dark age right now. I’m very experienced in Java but less so in C++ and Python and I have a very little bit of experience with HTML and Android. 
 
 My CS Courses include
-  -230
-  -240
-  -220
-  -320
-  -Intro to Programming 191-p (programing in python)
-  -305
-  -187
-  -121
+  - 230
+  - 240
+  - 220
+  - 320
+  - Intro to Programming 191-p (programing in python)
+  - 305
+  - 187
+  - 121
   
 Other courses I’ve taken
-  -Comic Art in North America
-  -S-Int. History of Animation
-  -The Irish Experience
-  -Statistics
-  -Calculus 1 and 2
+  - Comic Art in North America
+  - S-Int. History of Animation
+  - The Irish Experience
+  - Statistics
+  - Calculus 1 and 2
 
 Ryan Stanley
 -------------
