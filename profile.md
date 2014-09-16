@@ -1,7 +1,7 @@
 Company Name
 ============
 
-To be determined
+Rocket
 
 Company Description
 ===================
@@ -100,6 +100,7 @@ My CS Courses include
   -305
   -187
   -121
+  
 Other courses I’ve taken
   -Comic Art in North America
   -S-Int. History of Animation
