@@ -26,22 +26,54 @@ Matthew Downes
 
 I am from Southington, CT and am currently a junior at UMass Amherst. I am majoring in Computer Science with a concentration in Security and Privacy. I have experience in programming in Java and C.
 
-Previous Courses-
-CS187 Programming with Data Structures
-CS220 Programming Methodology
-CS230 Computer System Principles
-CS240 Reasoning under Uncertainty 
-CS250 Introduction to Computation
+Previous CS Courses-
+  - CS187 Programming with Data Structures
+  - CS220 Programming Methodology
+  - CS230 Computer System Principles
+  - CS240 Reasoning under Uncertainty 
+  - CS250 Introduction to Computation
 
 Non CS Courses-
-MATH 233 Multivariate Calculus
-MATH 515 Statistics 
+  - MATH 233 Multivariate Calculus
+  - MATH 515 Statistics I
 
-Joe D'Agostino
---------------
+Zack Shuman
+-----------
 
-I am from Shrewsbury, MA and I am a Senior at UMass Amherst. I am a Computer Science major with a focus in Security and Privacy.  I have programming experience in several languages such as, Java, C/C++, HTML, Javascript, and Android.
+Hey my name is Zack, I am from Brookline, Mass. I am a senior, I am a computer scinece major, and I am on the club swim team.
 
-I am currently the President of the Phi Sigma Kappa fraternity at UMass and have experience doing Network Security Engineering.
+Previous CS Courses-
+  -  Introduction to Computer Science 
+  -  Introduction to Computation
+  -  Systems Programming with C
+  -  Programming I & II
+  -  Computer Architecture and Assembly Language
+  -  Data Structures
+  -  Software Design,Algorithms
+  -  Reasoning with Uncertaint  
+  -  Operating Systems
 
+Non CS Courses-
+  - Statistics 
+  - Physics with Engineering
 
+Jade Hendrick
+-------------
+
+My name is Jade Hedrick. I switched to the Computer Science major during my last semester and now I'm here for three extra semesters.
+
+Previous CS Curses
+  - Intro to Python
+  - Computer Literacy
+  - 121
+  - 187 
+  - 220 
+  - 230 
+  - 240
+
+Non CS Courses- 
+  - Honors Thesis courses(I took my (original) last year of study. It made me realize what a soul-sucking, miserable experience Psychological research is and catalyzed my decision to switch to CS. Dodged a bullet there!)
+
+Fun Fact-
+
+I've taken a hiatus from my career path of stealing childrens' exotic fighter-animals to bring YOU an amazing game product.
