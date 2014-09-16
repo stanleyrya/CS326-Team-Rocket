@@ -57,12 +57,12 @@ Non CS Courses-
   - Statistics 
   - Physics with Engineering
 
-Jade Hedrick
+Jade Hendrick
 -------------
 
 My name is Jade Hedrick. I switched to the Computer Science major during my last semester and now I'm here for three extra semesters.
 
-Previous CS Courses
+Previous CS Curses
   - Intro to Python
   - Computer Literacy
   - 121
@@ -77,3 +77,10 @@ Non CS Courses-
 Fun Fact-
 
 I've taken a hiatus from my career path of stealing childrens' exotic fighter-animals to bring YOU an amazing game product.
+
+Joe D'Agostino
+--------------
+
+ I am from Shrewsbury, MA and I am a Senior at UMass Amherst. I am a Computer Science major with a focus in Security and Privacy. I have programming experience in several languages such as, Java, C/C++, HTML, Javascript, and Android.
+ 
+ I am the President of the Phi Sigma Kappa Fraternity at UMass and have experience doing Network Security Engineering.
