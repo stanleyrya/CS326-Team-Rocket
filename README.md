@@ -26,4 +26,6 @@ but we want people to be able to spectate other peoples games!
  - You should review the proposal file to find our proposal including all of the important information.
  - You should ignore the "Finn's Testing" and "test2" files for they were done for testing reasons.
 
-
+# References
+ - Guess Who Logo: http://www.hasbro.com/games/discover/guesswho/images/guesswho_1.jpg
+ - Team Rocket ball: http://media.tumblr.com/tumblr_lmwzqgCkZK1qct4jo.png 
