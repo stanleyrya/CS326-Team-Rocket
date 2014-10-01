@@ -13,7 +13,7 @@ Members
  - Joey D'Agostino
  - Zack Shuman
 
- # Project Overview
+# Project Overview
 
 We are creating a "Guess Who" game. 
 We will be using characters from movies, TV shows, video games, and whatever else we decide to dive into. 
