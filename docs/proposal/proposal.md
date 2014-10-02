@@ -2,49 +2,48 @@
 Logo Edited by KF, 10/01/14
 
 
-###Kelly Finn--The Starving Artist  
+####Kelly Finn--The Starving Artist  
 Date of Graduation: 		Spring 2016  
 Hometown: 			Wilmington  
 Team Role: 			The artist  
 Hobbies: 			tumblr, role playing, video editing, writing, and Minecraft  
 Favorite Pokemon: 		Lucario  
 
-###Jade Hedrick--The Exterminator
-Date of Graduation: 		Someday
-Hometown: 			Cape Cod
-Team Role: 			The debugger
-Hobbies: 			Fencing, role playing, League of Legends
-Favorite Pokemon: 		Skitty
+####Jade Hedrick--The Exterminator  
+Date of Graduation: 		Someday  
+Hometown: 			Cape Cod  
+Team Role: 			The debugger  
+Hobbies: 			Fencing, role playing, League of Legends  
+Favorite Pokemon: 		Skitty  
 
-###Matthew Downes-- The Code Monkey
-Date of Graduation: 		Spring 2016
-Hometown: 			Southington, CT
-Team Role: 			The Coder
-Hobbies: 			Tennis
-Favorite Pokemon: 		Magikarp(Splash)
+####Matthew Downes-- The Code Monkey  
+Date of Graduation: 		Spring 2016  
+Hometown: 			Southington, CT  
+Team Role: 			The Coder  
+Hobbies: 			Tennis  
+Favorite Pokemon: 		Magikarp(Splash)  
 
-###Ryan Stanley - The Code Monkey
-Date of Graduation:		2016
-Hometown(s):			Waltham MA, Ashland MA
-Team Role:			Coder
-Hobbies:			Video Games, Food, Android Dev, Swimming
-Favorite Pokemon:		Totodile
+Ryan Stanley - The Code Monkey  
+Date of Graduation:		2016  
+Hometown(s):			Waltham MA, Ashland MA  
+Team Role:			Coder  
+Hobbies:			Video Games, Food, Android Dev, Swimming  
+Favorite Pokemon:		Totodile  
 
-###Zack Shuman - The Crashtest Dummy
-Date of Graduation:	            2015	
-Hometown:		            Brookline, MA	
-Team Role:			Tester
-Hobbies:			Swimming, video games
-Favorite Pokemon:		Squirtle
+######Zack Shuman - The Crashtest Dummy  
+Date of Graduation:	        2015  	
+Hometown:		        Brookline, MA  	
+Team Role:			Tester  
+Hobbies:			Swimming, video games  
+Favorite Pokemon:		Squirtle  
 
-###Joe D’Agostino - The King
-Date of Graduation: 	            2015
-Hometown: 		            Shrewsbury, MA
-Team Role: 		            The Business Man
-Hobbies:			Wrestling, Baseball, Video Games
-Favorite Pokemon:		Scyther 
-Edited by RS, MD, KF, JH, ZS, JD
-10/01/14
+######Joe D’Agostino - The King
+Date of Graduation: 	        2015  
+Hometown: 		        Shrewsbury, MA  
+Team Role:			The Business Man  
+Hobbies:			Wrestling, Baseball, Video Games  
+Favorite Pokemon:		Scyther  
+Edited by RS, MD, KF, JH, ZS, JD  10/01/14
 
 
 
@@ -94,35 +93,35 @@ Edited by JH
 10/01/2014
 
 
-##Cost
-
-Expense
-Rate
-Cost (3 Months)
-Salaries
-$30/hr * 40 hours a week 5 days a week                      	6 developers
-$108,000
-Hardware (Laptops, drawing materials, etc)
-$5,000
-$5,000
-Food/Drink
-$1,000
-$1,000
-Designers
-$500
-$500
-Office Space
-$250
-$750
-Software
-$100
-$100
-Other
-$500
-$500
-Advertising
-$2,000
-$6,000
+##Cost  
+  
+Expense  
+Rate  
+Cost (3 Months)  
+Salaries  
+$30/hr * 40 hours a week 5 days a week                        	6 developers
+$108,000  
+Hardware (Laptops, drawing materials, etc)  
+$5,000  
+$5,000  
+Food/Drink  
+$1,000  
+$1,000  
+Designers  
+$500  
+$500  
+Office Space  
+$250  
+$750  
+Software  
+$100  
+$100  
+Other  
+$500  
+$500  
+Advertising  
+$2,000  
+$6,000  
  
  
  
