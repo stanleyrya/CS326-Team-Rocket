@@ -1,78 +1,72 @@
 
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
+
 Logo Edited by KF, 10/01/14
 
+##Meet the Team:
 
-####Kelly Finn--The Starving Artist  
+**Kelly Finn - The Starving Artist**  
 Date of Graduation: 		Spring 2016  
 Hometown: 			Wilmington  
 Team Role: 			The artist  
 Hobbies: 			tumblr, role playing, video editing, writing, and Minecraft  
 Favorite Pokemon: 		Lucario  
 
-####Jade Hedrick--The Exterminator  
+**Jade Hedrick - The Exterminator**  
 Date of Graduation: 		Someday  
 Hometown: 			Cape Cod  
 Team Role: 			The debugger  
 Hobbies: 			Fencing, role playing, League of Legends  
 Favorite Pokemon: 		Skitty  
 
-####Matthew Downes-- The Code Monkey  
+**Matthew Downes - The Code Monkey**  
 Date of Graduation: 		Spring 2016  
 Hometown: 			Southington, CT  
 Team Role: 			The Coder  
 Hobbies: 			Tennis  
 Favorite Pokemon: 		Magikarp(Splash)  
 
-Ryan Stanley - The Code Monkey  
+**Ryan Stanley - The Code Monkey**  
 Date of Graduation:		2016  
 Hometown(s):			Waltham MA, Ashland MA  
 Team Role:			Coder  
 Hobbies:			Video Games, Food, Android Dev, Swimming  
 Favorite Pokemon:		Totodile  
 
-######Zack Shuman - The Crashtest Dummy  
+**Zack Shuman - The Crashtest Dummy**  
 Date of Graduation:	        2015  	
 Hometown:		        Brookline, MA  	
 Team Role:			Tester  
 Hobbies:			Swimming, video games  
 Favorite Pokemon:		Squirtle  
 
-######Joe D’Agostino - The King
+**Joe D’Agostino - The King**  
 Date of Graduation: 	        2015  
 Hometown: 		        Shrewsbury, MA  
 Team Role:			The Business Man  
 Hobbies:			Wrestling, Baseball, Video Games  
 Favorite Pokemon:		Scyther  
-Edited by RS, MD, KF, JH, ZS, JD  10/01/14
 
-
+Edited by RS, MD, KF, JH, ZS, JD  10/01/14
 
 ##Timeline:
 
-Preliminary Research						September 15th - October 15th
-
-	Our preliminary research stage starts with testing the original “Guess Who” game. To properly complete this project we will have to not only be familiar with the gameplay but also become obsessed with it. Other small research includes possible copyright infringements, useful outside libraries, and databases of people and other noteworthy characters.
-	
-Design Documents						October 1st - October 15th
-	Design documents will be vital for a smooth start in the coding stage.
-	
-Coding								October 15th - November 30th
-	The coding process will produce a prototype of the game by November 1st, a working system and website for the game by November 15th, and a complete product by November 30th.
-	
-Front-End/Graphics						November 1st - November 30th
-	Graphics for the system, game, and characters will most likely evolve with the project over time. Draft copies will be produced by November 10th, followed by final draft copies November 20th. The extra time is allotted incase it becomes necessary.
-	
-Polishing/Debugging						November 20th - December 4th
-	Polishing and Debugging officially starts November 20th, however testing will be produced on a smaller scale all throughout the coding process.
-	
-Final Deadline							December 4th
-	This is non-negotiable.
-	
-Backburner:
-	If time permits, we would like to extend our product past the base idea.
-1. Create multiple databases and extensions for unique characters
-2. Adapt the UI to work with touchscreen devices
-3. Create an Android and/or iOS application that works with our game
+| | |
+|--------|------|-----|
+|Preliminary Research|September 15th - October 15th| 
+| |Our preliminary research stage starts with testing the original “Guess Who” game. To properly complete this project we will have to not only be familiar with the gameplay but also become obsessed with it. Other small research includes possible copyright infringements, useful outside libraries, and databases of people and other noteworthy characters.|
+|Design Documents|October 1st - October 15th|
+| |Design documents will be vital for a smooth start in the coding stage.|
+|Coding|October 15th - November 30th|
+| |The coding process will produce a prototype of the game by November 1st, a working system and website for the game by November 15th, and a complete product by November 30th.|
+|Front-End/Graphics|November 1st - November 30th|
+| |Graphics for the system, game, and characters will most likely evolve with the project over time. Draft copies will be produced by November 10th, followed by final draft copies November 20th. The extra time is allotted incase it becomes necessary.|
+|Polishing/Debugging|November 20th - December 4th|
+| |Polishing and Debugging officially starts November 20th, however testing will be produced on a smaller scale all throughout the coding process.|
+|Final Deadline|December 4th|
+| |This is non-negotiable.|
+|Backburner|If time permits, we would like to extend our product past the base idea|
+| |1. Create multiple databases and extensions for unique characters 2. Adapt the UI to work with touchscreen devices 3. Create an Android and/or iOS application that works with our game|
 
 Edited by RS, 10/01/14
 
