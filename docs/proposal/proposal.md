@@ -2,42 +2,42 @@
 Logo Edited by KF, 10/01/14
 
 
-Kelly Finn--The Starving Artist
-Date of Graduation: 		Spring 2016
-Hometown: 			Wilmington
-Team Role: 			The artist
-Hobbies: 			tumblr, role playing, video editing, writing, and Minecraft
-Favorite Pokemon: 		Lucario
+###Kelly Finn--The Starving Artist  
+Date of Graduation: 		Spring 2016  
+Hometown: 			Wilmington  
+Team Role: 			The artist  
+Hobbies: 			tumblr, role playing, video editing, writing, and Minecraft  
+Favorite Pokemon: 		Lucario  
 
-Jade Hedrick--The Exterminator
+###Jade Hedrick--The Exterminator
 Date of Graduation: 		Someday
 Hometown: 			Cape Cod
 Team Role: 			The debugger
 Hobbies: 			Fencing, role playing, League of Legends
 Favorite Pokemon: 		Skitty
 
-Matthew Downes-- The Code Monkey
+###Matthew Downes-- The Code Monkey
 Date of Graduation: 		Spring 2016
 Hometown: 			Southington, CT
 Team Role: 			The Coder
 Hobbies: 			Tennis
 Favorite Pokemon: 		Magikarp(Splash)
 
-Ryan Stanley - The Code Monkey
+###Ryan Stanley - The Code Monkey
 Date of Graduation:		2016
 Hometown(s):			Waltham MA, Ashland MA
 Team Role:			Coder
 Hobbies:			Video Games, Food, Android Dev, Swimming
 Favorite Pokemon:		Totodile
 
-Zack Shuman - The Crashtest Dummy
+###Zack Shuman - The Crashtest Dummy
 Date of Graduation:	            2015	
 Hometown:		            Brookline, MA	
 Team Role:			Tester
 Hobbies:			Swimming, video games
 Favorite Pokemon:		Squirtle
 
-Joe D’Agostino - The King
+###Joe D’Agostino - The King
 Date of Graduation: 	            2015
 Hometown: 		            Shrewsbury, MA
 Team Role: 		            The Business Man
@@ -49,6 +49,7 @@ Edited by RS, MD, KF, JH, ZS, JD
 
 
 ##Timeline:
+
 Preliminary Research						September 15th - October 15th
 
 	Our preliminary research stage starts with testing the original “Guess Who” game. To properly complete this project we will have to not only be familiar with the gameplay but also become obsessed with it. Other small research includes possible copyright infringements, useful outside libraries, and databases of people and other noteworthy characters.
