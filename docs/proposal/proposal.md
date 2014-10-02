@@ -91,40 +91,18 @@ Edited by JH, 10/01/2014
 
 
 ##Cost  
-  
-Expense  
-Rate  
-Cost (3 Months)  
-Salaries  
-$30/hr * 40 hours a week 5 days a week                        	6 developers
-$108,000  
-Hardware (Laptops, drawing materials, etc)  
-$5,000  
-$5,000  
-Food/Drink  
-$1,000  
-$1,000  
-Designers  
-$500  
-$500  
-Office Space  
-$250  
-$750  
-Software  
-$100  
-$100  
-Other  
-$500  
-$500  
-Advertising  
-$2,000  
-$6,000  
- 
- 
- 
-Total
- 
-$121,850
+
+|Expense|Rate|Cost (3 Months)|
+|-------|----|---------------|
+|Salaries|$30/hr * 40 hours a week 5 days a week, 6 developers|$108,000|
+|Hardware (Laptops, drawing materials, etc)|$5,000|$5,000|
+|Food/Drink|$1,000|$1,000|
+|Designers|$500|$50|
+|Office Space|$250|$750|
+|Software|$100|$100|
+|Other|$500|$500|
+|Advertising|$2,000|$6,000|
+|Total| |$121,850|
 
 Edited by JD, 10/01/204
 
@@ -133,6 +111,6 @@ Edited by JD, 10/01/204
 
 
 
-Bibliography:
-Guess Who Logo: http://www.hasbro.com/games/discover/guesswho/images/guesswho_1.jpg
-Team Rocket ball: http://media.tumblr.com/tumblr_lmwzqgCkZK1qct4jo.png 
+##Bibliography:  
+Guess Who Logo: http://www.hasbro.com/games/discover/guesswho/images/guesswho_1.jpg  
+Team Rocket ball: http://media.tumblr.com/tumblr_lmwzqgCkZK1qct4jo.png  
