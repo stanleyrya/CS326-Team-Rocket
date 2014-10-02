@@ -50,25 +50,30 @@ Edited by RS, MD, KF, JH, ZS, JD
 
 ##Timeline:
 Preliminary Research						September 15th - October 15th
+
 	Our preliminary research stage starts with testing the original “Guess Who” game. To properly complete this project we will have to not only be familiar with the gameplay but also become obsessed with it. Other small research includes possible copyright infringements, useful outside libraries, and databases of people and other noteworthy characters.
+	
 Design Documents						October 1st - October 15th
 	Design documents will be vital for a smooth start in the coding stage.
+	
 Coding								October 15th - November 30th
 	The coding process will produce a prototype of the game by November 1st, a working system and website for the game by November 15th, and a complete product by November 30th.
+	
 Front-End/Graphics						November 1st - November 30th
 	Graphics for the system, game, and characters will most likely evolve with the project over time. Draft copies will be produced by November 10th, followed by final draft copies November 20th. The extra time is allotted incase it becomes necessary.
+	
 Polishing/Debugging						November 20th - December 4th
 	Polishing and Debugging officially starts November 20th, however testing will be produced on a smaller scale all throughout the coding process.
+	
 Final Deadline							December 4th
 	This is non-negotiable.
+	
 Backburner:
 	If time permits, we would like to extend our product past the base idea.
-Create multiple databases and extensions for unique characters
-Adapt the UI to work with touchscreen devices
-Create an Android and/or iOS application that works with our game
-Trip in a meowth balloon
-Blast off
-Blast off again
+1. Create multiple databases and extensions for unique characters
+2. Adapt the UI to work with touchscreen devices
+3. Create an Android and/or iOS application that works with our game
+
 Edited by RS, 10/01/14
 
 
