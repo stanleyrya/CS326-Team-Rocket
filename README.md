@@ -1,8 +1,7 @@
 team-rocket
 ===========
 
-insert-logo-here
-=============
+!(https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
 
 Members
 ========
