@@ -19,7 +19,7 @@ Team Role:			Coder
 **Zack Shuman - The Crashtest Dummy**  
 Team Role:			Tester
 
-**Joe D’Agostino - The King** 
+**Joe D’Agostino - The King**  
 Team Role:			Business Man  
 
 Edited by JH  10/15/14
@@ -76,12 +76,18 @@ Edited by RS  10/15/14
 
 ##Flowchart
 
-![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)  
+![flow](https://github.com/umass-cs-326/team-rocket/raw/master/docs/326 flow 2.png)  
 
 Edited by KF, ZS  10/14/14
 
 ##Screen-by-screen
 
-![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)  
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Wire New User.png) 
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Wire image login.png)  
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Wire profile.png)  
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Wire Image Challenge friend pop up.png)  
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Wire Pick Your Person.png)  
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/wire game screen.png)  
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Wire stats screen.png)  
 
 Edited by KF, ZS  10/14/14
