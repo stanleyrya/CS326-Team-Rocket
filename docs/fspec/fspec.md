@@ -1,4 +1,5 @@
-![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)  
+
 Edited by KF  10/15/14
 
 ##Rolecall
@@ -6,7 +7,7 @@ Edited by KF  10/15/14
 **Kelly Finn - The Starving Artist**  
 Team Role: 			Artist  
 
-**Jade Hedrick - The Exterminator** 
+**Jade Hedrick - The Exterminator**  
 Team Role: 			Debugger  
 
 **Matthew Downes - The Code Monkey**  
