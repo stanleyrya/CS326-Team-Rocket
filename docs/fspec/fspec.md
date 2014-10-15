@@ -76,8 +76,12 @@ Edited by RS  10/15/14
 
 ##Flowchart
 
-Edited by KF, ZS  10/15/14
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)  
+
+Edited by KF, ZS  10/14/14
 
 ##Screen-by-screen
 
-Edited by KF, ZS  10/15/14
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)  
+
+Edited by KF, ZS  10/14/14
