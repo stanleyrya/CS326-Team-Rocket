@@ -28,7 +28,7 @@ Edited by JH  10/15/14
 ##Overview
 We are creating a "Guess Who" game. We will be using characters from movies, TV shows, video games, and whatever else we decide to dive into. Our goal is to have people be able to play this game with their friends online, and on their phones. However we are not limiting ourselves to just playing the game, but we want people to be able to spectate other peoples games!
 
-#Disclaimer/Revision History
+###Disclaimer/Revision History
 This document only discusses what the user will see and interact with throughout the web application. It does not discuss any low-level implementation specifics however gives a front-end high-level perspective. We took into consideration the copy write issues with our logo and decided to talk to the companies to strike a deal with them. Also all of our designs are strictly preliminary and can change as we sit fit as we get into the actual design. We also did not cover all of the scenarios that the user can experience in gameplay because of the amount there could be. So only the main scenarios were covered to give more than enough detail to explain how the game works. 
 
 Edited by JH, MD  10/15/14
