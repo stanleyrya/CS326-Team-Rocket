@@ -1,9 +1,35 @@
 ![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
+Edited by KF  10/15/14
+
+##Rolecall
+
+**Kelly Finn - The Starving Artist**  
+Team Role: 			Artist  
+
+**Jade Hedrick - The Exterminator** 
+Team Role: 			Debugger  
+
+**Matthew Downes - The Code Monkey**  
+Team Role: 			Coder  
+
+**Ryan Stanley - The Code Monkey**  
+Team Role:			Coder
+
+**Zack Shuman - The Crashtest Dummy**  
+Team Role:			Tester
+
+**Joe D’Agostino - The King** 
+Team Role:			Business Man  
+
+Edited by JH  10/15/14
+
 
 ##Overview
 We are creating a "Guess Who" game. We will be using characters from movies, TV shows, video games, and whatever else we decide to dive into. Our goal is to have people be able to play this game with their friends online, and on their phones. However we are not limiting ourselves to just playing the game, but we want people to be able to spectate other peoples games!
 
 This document only discusses what the user will see and interact with throughout the web application. It does not discuss any low-level implementation specifics however gives a front-end high-level perspective.
+
+Edited by JH  10/15/14
 
 ##Scenarios
 
@@ -28,6 +54,14 @@ Alfred is an old user. As he has been playing for some years he simply clicked t
 ###Connor
 Connor is a old user that has not played in quite some time. Connor’s sister Megan finally hopped off of the computer. However when Connor approached the Computer Megan had left the “Guess Who” page open. Connor was curious however he did not remember his old password, so he clicked the forgot password button. He was prompted to enter his username and email, so he did. There was a pop-up telling him to check his email. So he did. There was an email from “Guess Who”, so Connor clicked the email. There was a warning in the email, alerting him to not click the link if he did not request a forgotten password request. As he did request a new password he clicked the link. He was promoted to enter a new password and to re enter that password. He was brought back to the sign in page. Once there he put in his username and new password then clicked “sign in”. Once he had logged in he clicked the “random challenge” button at the top right of the screen. After a few seconds of waiting on the “Searching for challenge” screen he was a prompted to pick a person with many people to choose from. He clicked a person, when clicked he saw a larger picture of this person and a prompt asking if he was sure that this was the person he wanted. After he clicked yes the page changed. *Refer to how to play.* After that game Connor had had enough for now. So when he was redirected to the profile page and clicked “logout” at the bottom right corner of the page.
 
+###Wreck-It Ralph
+Wreck-it Ralph is a veteran user who takes Guess Who way too seriously.  He challenges his arch nemesis Fix-It Felix to a winner take all final game to determine who the best is. Wreck-It Ralph challenges Felix by clicking on this name in his friends list and opens up a new game with him. *Refer how to play.* Ralph chooses the person he wanted and began the game. After a few turns go by, Ralph tries making a guess. After several guesses, Ralph gets angry and proceeds to quit by clicking the forfeit game button. It says “are you sure you wish to forfeit”, and Ralph clicks yes. He then loses to Felix and proceeds to yell “I’m gonna wreck it” and then smashes his computer.
+
+###Team Rocket
+Team Rocket is looking to boost their stats by going on and challenging random people.  However they’re not looking to do this fairly. They click the “Search for Challenge” button and after a few seconds of waiting they are matched with a competitor. *Refer how to play.* They start playing the game and as turns go by they start to lie about their person. As the game goes on the person realizes that Team Rocket is cheating. They click the “Report User” button in the bottom right corner and they’re prompted “Are You Sure You Wish to Report this User.” They click “Yes.” They then proceed to quit because they are sick of the cheating. Team Rocket gets the win…for now. When they were reported the chat was sent to Officer Jenny for review. Officer Jenny determines that Team Rocket was cheating and takes the win away from them. Team Rocket’s plan was foiled and they blasted off again. 
+
+Edited by ZS, MD  10/15/14
+
 ##Non Goals
 This version will not support the following features:
 - Non-UMass email accounts
@@ -37,6 +71,12 @@ This version will not support the following features:
 - Betting on games (while spectating)
 - Enhanced reporting feature
 
+Edited by RS  10/15/14
+
 ##Flowchart
 
+Edited by KF, ZS  10/15/14
+
 ##Screen-by-screen
+
+Edited by KF, ZS  10/15/14
