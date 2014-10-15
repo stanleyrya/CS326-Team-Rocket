@@ -1,5 +1,9 @@
+![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
+
 ##Overview
-We are creating a "Guess Who" game. We will be using characters from movies, TV shows, video games, and whatever else we decide to dive into. Our goal to have people be able to play this game with their friends online, and on their phones. However we are not limiting ourselves to just playing the game, but we want people to be able to spectate other peoples games!
+We are creating a "Guess Who" game. We will be using characters from movies, TV shows, video games, and whatever else we decide to dive into. Our goal is to have people be able to play this game with their friends online, and on their phones. However we are not limiting ourselves to just playing the game, but we want people to be able to spectate other peoples games!
+
+This document only discusses what the user will see and interact with throughout the web application. It does not discuss any low-level implementation specifics however gives a front-end high-level perspective.
 
 ##Scenarios
 
