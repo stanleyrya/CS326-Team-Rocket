@@ -24,7 +24,7 @@ but we want people to be able to spectate other peoples games!
  - You should review the notes directory to find all of our team meeting notes.
  - You should review the proposal file to find our proposal including all of the important information.
  - You should ignore the "Finn's Testing" and "test2" files for they were done for testing reasons.
- - 
+ 
 # Functional Specification
  - You should review the notes directory to find all of our team meeting notes, even the ones we forgot!
  - You should review the docs/fspec directory to find all relevant files regarding functional specification.
