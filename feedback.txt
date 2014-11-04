@@ -23,3 +23,12 @@ Your trello board activity went up which is nice to see, but I'd like to see you
 we are in the mid semester and exams are coming up but try to meet for at least an hour each week as you will find it really
 helps bring the project together.
 [Thumbs Up]
+
+Project 3:
+All of this looks really good, the wireframes are clear and helpful and the examples of use all apply to an applicaiton like
+this. I do encourage you to keep iterating on the page layout, especially since you are making a game; a proper, simple and
+understandable interface is vital to the success of the application as you don't want to overwhelm the user with information
+
+Your trello board activaty has been rather low within the past month, remember that this is a vital part of your grade and
+using it is important.
+[Weak Thumbs Up]
