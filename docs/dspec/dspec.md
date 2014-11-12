@@ -6,10 +6,11 @@ Edited by Matt Downes 11/11/2014
 
 Revision History
 ================
-|Date----|Version|Updata|
+|Date    |Version|Update|
 |--------|:-----:|-----:|
-|Proposal|       |      |
-
+|Proposal|1.0    |10/02/2014|
+|Functional Specification|1.1|10/16/2014|
+|Design Specification|1.2|11/14/2014|
 
 External Libraries
 ==================
