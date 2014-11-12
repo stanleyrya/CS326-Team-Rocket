@@ -22,5 +22,7 @@ External Libraries
 Birds Eye View
 ==============
 
+![Birds Eye View](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Component Diagram.png)
+
 Components
 ==========
