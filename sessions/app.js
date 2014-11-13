@@ -16,8 +16,7 @@ var cookieParser	= require('cookie-parser');
 var bodyParser		= require('body-parser');
 
 // Our user-defined routes/middleware:
-var main		= require('./routes/main');
-//added to allow the admin.js route to be used
+var users		= require('./routes/main');
 
 
 // Create the express application:
@@ -48,6 +47,8 @@ app.use(flash());
 // ADDITION:
 // Using our routes/middleware:
 app.use('/main', users);
+
+
 
 app.get('/', function (req, res) {
   res.redirect('/main');
