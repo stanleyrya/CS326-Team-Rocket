@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body bgcolor = "#202020">
+  <center>
+  <marquee behavior = "alternate">
+    <img src="https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/docs/logo.png">
+ </marquee>
+ <h1>Welcome to Guess Who Online</h1>
+    <form method="post" action="/user/auth">
+      User Name: <input type="text" name="username"> <br>
+      Password:  <input type="password" name="password"> <br>
+      <button>Login</button>
+      <button>New User?</button>
+    </form>
+    </center>
+  </body>
+</html>
