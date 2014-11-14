@@ -24,5 +24,18 @@ Birds Eye View
 
 ![Birds Eye View](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Component Diagram.png)
 
+Edited by Jade Hedrick and Ryan Stanley 11/11/2014
+
 Components
 ==========
+
+###Game  
+There will be two major panels, the card panel and chat box. The card panel will rely on JQuery and AJAX to dynamically update the view without refreshing the page. Each card in this panel has two states, up and down, which can be “flipped” with a mouse click. JQuery has functions that transform images which will be perfect for this task. We will also be using the module pg, which works with a Postgres database, to pull each card’s “character”. This will allow us to have a new set of cards each time. Each card will also have the "Guess" option.  
+
+The chat box will be taken care of using Socket.IO. By using a library, we can focus our time on the gameplay and other elements.  
+
+Each player will have their own Game screen running. The network connection will be used for the chat box as each player individually flips their own cards. The network connection will also be used to control the state of the game, more specifically updating the other player when one wins.  
+
+Each time a player guesses incorrectly, the guess will appear as an “action” in the chat box. However if the player has guessed wrong three times, both players will progress to the End Game screen. Similarly f the player guesses correctly, the players will also progress to the End Game screen.  
+
+Edited by Ryan Stanley 11/14/2014
