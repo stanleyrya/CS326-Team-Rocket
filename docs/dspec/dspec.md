@@ -19,6 +19,41 @@ Edited by Matt Downes 11/11/2014
 External Libraries
 ==================
 
+###Node.js  
+Node.js is the basis for our server-side system. Node.js is a web application platform based on Google Chrome's JavaScript runtime.
+
+###Express  
+Express is an extension module for Node.js that makes it easy to create a web application.
+
+###body-parser  
+A middle-ware extension to express that enables the ability to parse bodies of incoming requests.
+
+###cookie-parser  
+cookie-parser is an express extension that creates parsers for cookie headers and creates object out of the cookie keyed by the cookie names.
+
+###morgan  
+An http request logging tool.This is used for flow within our application.
+
+###serve-favicon  
+Node.js middle-ware that efficiently serves the current page's favicon to the user.
+
+###pg  
+A Node.js module that interfaces the node.js server with a postgres database. We plan to use this to handle our database within our Guess Who game.
+
+###AJAX  
+Asynchronous Javascript and XML, we plan to use this so that things can take place in the background without directly affecting things that are seen.
+
+###jQuery  
+This makes programming with Javascript easy as well as handling events.  In our application these events would be the turning over (flipping) of the cards in the game.
+
+###net  
+This is a library that is used for online based connections and communications.  This will be used for our chat function as well as connecting to other players.
+
+###Socket.io  
+This is a powerful and fast real time engine for chat and communications. We may use this as well for the chat function of the game.
+
+Edited by Joe D’Agostino 11/12/14
+
 Birds Eye View
 ==============
 
