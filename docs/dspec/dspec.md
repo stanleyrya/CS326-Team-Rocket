@@ -26,10 +26,10 @@ Node.js is the basis for our server-side system. Node.js is a web application pl
 Express is an extension module for Node.js that makes it easy to create a web application.
 
 ###body-parser  
-A middle-ware extension to express that enables the ability to parse bodies of incoming requests.
+A middle-ware extension to Express that enables the ability to parse bodies of incoming requests.
 
 ###cookie-parser  
-cookie-parser is an express extension that creates parsers for cookie headers and creates object out of the cookie keyed by the cookie names.
+cookie-parser is an Express extension that creates parsers for cookie headers. It also creates an object out of the cookie keyed by the cookie names.
 
 ###morgan  
 An http request logging tool.This is used for flow within our application.
@@ -41,10 +41,10 @@ Node.js middle-ware that efficiently serves the current page's favicon to the us
 A Node.js module that interfaces the node.js server with a postgres database. We plan to use this to handle our database within our Guess Who game.
 
 ###AJAX  
-Asynchronous Javascript and XML, we plan to use this so that things can take place in the background without directly affecting things that are seen.
+Asynchronous Javascript and XML, we plan to use this to update the screen and retrieve information from the user without reloading the page.
 
 ###jQuery  
-This makes programming with Javascript easy as well as handling events.  In our application these events would be the turning over (flipping) of the cards in the game.
+This makes programming with Javascript easy as well as handling events.  In our application these events include "flipping" the character cards.
 
 ###net  
 This is a library that is used for online based connections and communications.  This will be used for our chat function as well as connecting to other players.
@@ -67,7 +67,7 @@ Components
 ###Game  
 There will be two major panels, the card panel and chat box. The card panel will rely on JQuery and AJAX to dynamically update the view without refreshing the page. Each card in this panel has two states, up and down, which can be “flipped” with a mouse click. JQuery has functions that transform images which will be perfect for this task. We will also be using the module pg, which works with a Postgres database, to pull each card’s “character”. This will allow us to have a new set of cards each time. Each card will also have the "Guess" option.  
 
-The chat box will be taken care of using Socket.IO. By using a library, we can focus our time on the gameplay and other elements.  
+The chat box will either be taken care of using Socket.IO or net. By using a library, we can focus our time on the gameplay and other elements.  
 
 Each player will have their own Game screen running. The network connection will be used for the chat box as each player individually flips their own cards. The network connection will also be used to control the state of the game, more specifically updating the other player when one wins.  
 
