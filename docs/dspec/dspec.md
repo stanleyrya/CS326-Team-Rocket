@@ -110,3 +110,12 @@ After the game is over you will be prompted with a new screen which will be diff
 
 Edited by Jade Hedrick 11/14/2014
 
+Division of Work
+================
+
+Jade Hedrick       Socket Programming, Debugging, Management
+Joe D’Agostino     Socket Programming, Front-end
+Kelly Finn         UI, Graphics, Front-end
+Matt Downes        Programming, Front-end
+Zack Shuman        Presentation, Programming, Back-end
+Ryan Stanley       Programming, Back-end
