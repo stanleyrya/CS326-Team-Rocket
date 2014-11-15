@@ -119,3 +119,5 @@ Kelly Finn         UI, Graphics, Front-end
 Matt Downes        Programming, Front-end
 Zack Shuman        Presentation, Programming, Back-end
 Ryan Stanley       Programming, Back-end
+
+Edited by Ryan Stanley 11/14/2014
