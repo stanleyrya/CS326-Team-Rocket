@@ -67,12 +67,12 @@ Components
 ###Login/Auth  
 This page will be implemented by using the example given to us in workshop four; however, we will be changing its layout and giving it a cosmetic update. This page will communicate with auth which is not a viewable page but will make sure the login information, input by the user, is correct, matches a username and corresponding password. Auth will also be implemented using the template given to us in workshop four. If auth responds negatively, either there is now user in the system by that name or the password doesn’t match said username, the login page will refresh with a message indicating one of the variables is wrong. This will continue until the username and password inputs are correct at which point the profile page for the client will appear. The only problem I can see occurring is if someone continually tries to log in until it works, and seeing someones profile. This, however, would take quite a bit of time, energy, and patients for absolutely no gain as personal information isn’t kept for our website.
 
-Edited by Kelly Finn 11/14/2014
+Edited by Kelly Finn 11/11/2014
 
 ###Profile  
 The profile page will be based off of the main page given to us in workshop four but will be vastly different. Instead the profile will contain all of the the users information, username, password, and an “about me” section. The user can either stay and read their own info, or click either of the buttons titled “online” or “logout” respectively. “Logout” will work in the same way it does in workshop four, only in button form, and will log the user out. “Online” will bring them to the online screen. As with the login page, profile undertake major cosmetic changes. A minor problem we may have is implementing the buttons to do their jobs instead of using the url to change views.
 
-Edited by Kelly Finn 11/14/2014
+Edited by Kelly Finn 11/12/2014
 
 ###Online  
 Online, like all of the other non gaming components, will be designed using workshop four as a template. Aside from the cosmetic update, the usernames will also be clickable “events” and when one is chosen and clicked, matchmaking mode will be invoked. If this mode does not go through the user will be brought back to the online screen, otherwise the game will begin. A problem I can foresee arising as we try implementing this is “matchmaking” not working or this page registering people as online even after they closed the browser simply because they didn’t log out.
@@ -92,7 +92,7 @@ We foresee some impressive difficulties with this because it involves socket pro
 
 The code itself will be simple, mirroring any other TCP client-server code. The user will be routed to Online if the user tries to connect to themselves or if the potential opponent refuses the connection. Otherwise the connection will remain open until the Endgame view and the users do not agree to have a rematch. If both do not agree, the connection is closed and the users are brought to their profile.
 
-Edited by Jade Hedrick 11/14/2014
+Edited by Jade Hedrick 11/11/2014
 
 ###Game  
 There will be two major panels, the card panel and chat box. The card panel will rely on JQuery and AJAX to dynamically update the view without refreshing the page. Each card in this panel has two states, up and down, which can be “flipped” with a mouse click. JQuery has functions that transform images which will be perfect for this task. We will also be using the module pg, which works with a Postgres database, to pull each card’s “character”. This will allow us to have a new set of cards each time. Each card will also have the "Guess" option.  
