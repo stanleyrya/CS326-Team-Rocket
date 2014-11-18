@@ -35,5 +35,9 @@ router.get('/game', function(req,res){
 	res.render('game');
 });
 
+router.get('/chat', function(req,res){
+	res.render('chat');
+});
+
 
 module.exports = router;
