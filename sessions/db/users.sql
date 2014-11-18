@@ -3,41 +3,40 @@ drop table if exists pokemon;
 
 create table users (
   	uid SERIAL,
-  	username varchar(50),
+  	fname varchar(50),
+  	lname varchar(50),
   	password varchar(25),
- 	primary key (uid)
-  );
+  	age int,
+  	primary key (uid)
+);
 
-create table pokemon{
+create table pokemon (
 	pid SERIAL,
 	name varchar(50),
-	primarty key (pid)
-};
+	primary key (pid)
+);
 
-insert into users values (1, 'Jessie', 'Ekins');
-insert into users values (2, 'James', 'Koffing');
-insert into users values (3, 'Butch', 'Raticate');
-insert into users values (4, 'Cassidy', 'Drowzee');
-insert into users values (5, 'Giovanni', 'Persian');
-insert into users values (6, 'Meowth', 'Meowth');
+insert into users values (1, 'Jessie', 'Rocket');
+insert into users values (2, 'James', 'Rocket');
 
-insert into pokemon values (1, 'Bulbasaur');
-insert into pokemon values (2, 'Charmander');
-insert into pokemon values (3, 'Squirtle');
-insert into pokemon values (4, 'Pikachu');
-insert into pokemon values (5, 'Oddish');
-insert into pokemon values (6, 'Vulpix');
-insert into pokemon values (7, 'Psyduck');
-insert into pokemon values (8, 'Ponyta');
-insert into pokemon values (9, 'Voltorb');
-insert into pokemon values (10, 'Tentacool');
-insert into pokemon values (11, 'Slowpoke');
-insert into pokemon values (12, 'Exeggcute');
-insert into pokemon values (13, 'Seel');
-insert into pokemon values (14, 'Mr. Mime');
-insert into pokemon values (15, 'Drowzee');
-insert into pokemon values (16, 'Abra');
-insert into pokemon values (17, 'Magnemite');
-insert into pokemon values (18, 'Electabuzz');
-insert into pokemon values (19, 'Magikarp');
-insert into pokemon values (20, 'Bellsprout');
+insert into pokemon values
+	(1,'Bulbasaur'),
+	(2,'Charmander'),
+	(3,'Squirtle'),
+	(4,'Pikachu'),
+	(5,'Oddish'),
+	(6,'Vulpix'),
+	(7,'Psyduck'),
+	(8,'Ponyta'),
+	(9,'Voltorb'),
+	(10,'Tentacool'),
+	(11,'Slowpoke'),
+	(12,'Exeggcute'),
+	(13,'Seel'),
+	(14,'Mr. Mime'),
+	(15,'Drowzee'),
+	(16,'Abra'),
+	(17,'Magnemite'),
+	(18,'Electabuzz'),
+	(19,'Magikarp'),
+	(20,'Bellsprout');
