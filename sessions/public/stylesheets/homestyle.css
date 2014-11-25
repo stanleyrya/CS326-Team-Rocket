@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button{
+	position: relative;
+	left: 36px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+form{
+	display: inline;
+}
