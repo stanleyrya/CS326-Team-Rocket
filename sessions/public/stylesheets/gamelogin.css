@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #0000FF;
+  background-image: url("http://img4.wikia.nocookie.net/__cb20100606145625/reddeadredemption/images/6/6a/Team_Rocket_Logo_by_acer_v.jpg");
+
+  background-position: 0px 0px;
+  background-size: 700px 550px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button{
+	position: relative;
+	left: 46px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+form{
+	display: inline;
+}
+
+h1{
+	color: #0000FF;
+}
