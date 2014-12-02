@@ -6,12 +6,19 @@
   <body bgcolor = "#202020">
   <h1>Game</h1>
   <button onclick = "rageQuit()">Rage Quit?</button>
-  <script>
+  <br>
+  <br>
+
+      <object data=http://localhost:4000/ width="600" height="400"> 
+    <embed src=http://localhost:4000/ width="600" height="400"> </embed> Error: Embedded data could not be displayed. </object>
+    
+    <script>
   function rageQuit(){
     var r = confirm("Are You Sure You Wish to Rage Quit?\nEither Yes or N0.");
     if(r == true)
       document.location.href = "login";
   }
     </script>
+    
   </body>
 </html>
