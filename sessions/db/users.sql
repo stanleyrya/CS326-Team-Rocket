@@ -51,7 +51,7 @@ insert into pokemon values
 	(10,'Tentacool', '/Tentacool.png'),
 	(11,'Slowpoke', '/Slowpoke.png'),
 	(12,'Exeggcute', '/Exeggcute.png'),
-	(13,'Seel', '/Exeggcute.png'),
+	(13,'Seel', '/Seel.png'),
 	(14,'Mr. Mime', '/Mr.Mime.png'),
 	(15,'Drowzee', '/Drowzee.png'),
 	(16,'Abra', '/Abra.png'),
