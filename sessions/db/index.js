@@ -2,7 +2,7 @@ var pg = require('pg');
 
 var connString = 'postgres://student:student@localhost/student'; //this might be wrong
 
-var client = new pg.Client(conString);
+var client = new pg.Client(connString);
 client.connect();
 
 //'that' refers to the server's queryHandler function. index.js tells that to emit 'ready' when it can get the most recent query
