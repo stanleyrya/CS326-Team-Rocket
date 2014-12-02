@@ -2,6 +2,9 @@ var pg = require('pg');
 
 var connString = 'postgres://student:student@localhost/student'; //this might be wrong
 
+var client = new pg.Client(conString);
+client.connect();
+
 //'that' refers to the server's queryHandler function. index.js tells that to emit 'ready' when it can get the most recent query
 //this all had to be done to bypass javascript's asyncronous flow "feature"
 
@@ -30,14 +33,3 @@ function getPictures(callback){
 }
 
 exports.getPictures = getPictures;
-
-//callback function
-//'data' is just an array of users/objects. Each 'user' in this case has fname, lname, street, zip, etc.....
-function locationHandler(err, data){
-  if (err) {
-    throw err;
-  }
-  else {
-    return data;
-  }
-}
