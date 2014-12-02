@@ -70,19 +70,16 @@ var json_handler = createResponseHandler(function (data) {
   console.log(obj);
 });
 
-//Had to turn the rest of the script into a function that we can call AFTER prompt
-function continueExecution(){
-  console.log(' --> connecting to ' + options.host + ' on port ' + options.port);
-  console.log(' --> resource ' + options.path);
+console.log(' --> connecting to ' + options.host + ' on port ' + options.port);
+console.log(' --> resource ' + options.path);
 
-  switch (handlerType) {
-    case 'pokemon':
-      var req = http.request(options, handler);
-      req.end();
-      break;
-    default:
-      console.log('unknown handler type');
-  }
+switch (handlerType) {
+  case 'pokemon':
+    var req = http.request(options, handler);
+    req.end();
+    break;
+  default:
+    console.log('unknown handler type');
 }
 
 
