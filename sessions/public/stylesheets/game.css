@@ -9,11 +9,11 @@ body{
 }
 
 h1{
-	font-size: 60px;
+	font-size: 40px;
 	color: #0000FF;
 	position: absolute;
-	left: 550px;
-	top: -40px;
+	left: 580px;
+	bottom: 30px;
 }
 #chat{
   position:absolute;
@@ -25,8 +25,8 @@ h1{
 #main{
   position: absolute;
   width: 125px;
-  height: 200px;
-  bottom: 75px;
-  left: 585px;
+  height: 125px;
+  bottom: 0px;
+  left: 950px;
 
 }
