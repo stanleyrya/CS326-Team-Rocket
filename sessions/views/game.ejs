@@ -1,24 +1,93 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/game.css' />
   </head>
-  <body bgcolor = "#202020">
-  <h1>Game</h1>
-  <button onclick = "rageQuit()">Rage Quit?</button>
-  <br>
-  <br>
+  <h1>
+  Your Pokemon
+  </h1>
+  <object id ="chat" data=http://localhost:4000/> 
+    <embed src=http://localhost:4000/> </embed> Error: Embedded data could not be displayed. 
+  </object>
 
-      <object data=http://localhost:4000/ width="600" height="400"> 
-    <embed src=http://localhost:4000/ width="600" height="400"> </embed> Error: Embedded data could not be displayed. </object>
-    
-    <script>
-  function rageQuit(){
-    var r = confirm("Are You Sure You Wish to Rage Quit?\nEither Yes or N0.");
-    if(r == true)
-      document.location.href = "login";
-  }
-    </script>
-    
+  <body bgcolor = "#FFFFFF">
+
+  <img id = "main" src = "http://assets20.pokemon.com/static2/_ui/img/chrome/external_link_bumper.png">
+
+  <table>
+  <tr>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+  </tr>
+    <tr>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+  </tr>
+    <tr>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+  </tr>
+    <tr>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+  <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" style = "width:100px;height:100px">
+  </td>
+    <td>
+  <img src = "http://assets.vg247.com/current//2013/10/Pokemon-Charizard_Official_Art_300dpi.jpg" onclick = "handleClick(this);" style = "width:100px;height:100px">
+  </td>
+  </tr>
+<script>
+function handleClick(element){
+  element.src = "http://assets20.pokemon.com/static2/_ui/img/chrome/external_link_bumper.png";
+}
+</script>
+  </table>
   </body>
 </html>

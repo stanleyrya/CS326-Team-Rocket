@@ -1,0 +1,32 @@
+table{
+	position: absolute;
+	left:0;
+	top:0;
+
+}
+body{
+	background: rgb(225,255,59);
+}
+
+h1{
+	font-size: 60px;
+	color: #0000FF;
+	position: absolute;
+	left: 550px;
+	top: -40px;
+}
+#chat{
+  position:absolute;
+  width: 520px;
+  height: 100px;
+  top: 440px;
+  left: 0px;
+}
+#main{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 75px;
+  left: 585px;
+
+}
