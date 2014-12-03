@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #0000FF;
+  background-image: url("https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/docs/Zach's profile.png");
+  background-position: 0px 0px;
+  background-size: 1400px 800px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button{
+  position: relative;
+  top: 550px;
+  left: 36px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+form{
+  display: inline;
+}

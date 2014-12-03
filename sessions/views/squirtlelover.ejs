@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/squirtlelover.css' />
+  </head>
+  <center>
+  <body background="https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/docs/Zach's profile.png">
+  <h1>Profile</h1>
+  <bottom>
+  <button onclick = "playGame()">Play Game</button>
+  <script>
+  function playGame(){
+      document.location.href = "login";
+  }
+    </script>
+  <button onclick = "logout()">Log Out</button>
+  <script>
+  function logout(){
+    var r = confirm("Are You Sure You Wish to Log Out?\nEither OK or Cancel.");
+    if(r == true)
+      document.location.href = "login";
+  }
+    </script>
+    </bottom>
+  </body>
+  </center>
+</html>

@@ -23,6 +23,14 @@ router.get('/home', function(req,res){
 
 });
 
+router.get('/SquirtleLover', function(req,res){
+	res.render('squirtlelover');
+});
+
+router.get('/Yugioh', function(req,res){
+	res.render('yugioh');
+});
+
 router.post('/auth1', function(req,res){
 	res.redirect('/main/newuser');
 });
