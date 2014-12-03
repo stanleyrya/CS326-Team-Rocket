@@ -31,6 +31,10 @@ router.get('/Yugioh', function(req,res){
 	res.render('yugioh');
 });
 
+router.get('/online', function(req,res){
+	res.render('online');
+});
+
 router.post('/auth1', function(req,res){
 	res.redirect('/main/newuser');
 });
