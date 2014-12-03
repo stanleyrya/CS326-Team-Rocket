@@ -24,9 +24,9 @@ h1{
 }
 #main{
   position: absolute;
-  width: 400px;
-  height: 400px;
-  top: 75px;
+  width: 125px;
+  height: 200px;
+  bottom: 75px;
   left: 585px;
 
 }
