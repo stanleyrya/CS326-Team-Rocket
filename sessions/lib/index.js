@@ -9,9 +9,8 @@ app.get('/', function(req, res){
 io.on('connection', function(socket){
   socket.on('chat message', function(msg){
   	if(msg === 'Squirtle'){
-  		//io.emit('chat message', 'hi');
   		var client = require('../lib/db/client.js');
-		client.getData('endGame',function(data){
+		  client.getData('endGame',function(data){
 			console.log(data);
 		})
   	}
