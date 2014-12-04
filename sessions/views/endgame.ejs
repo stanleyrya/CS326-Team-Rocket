@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/endgame.css' />
+  </head>
+  <center>
+  <body background="https://github.com/umass-cs-326/team-rocket/blob/master/docs/Endgame%20screen.png">
+  <h1><font color = 'white'>Profile</h1>
+  <bottom>
+  <button onclick = "playGame()">Play Again?</button>
+  <script>
+  function playGame(){
+      document.location.href = "online";
+  }
+    </script>
+  <button onclick = "profile()">Profile</button>
+  <script>
+  function playGame(){
+      document.location.href = "main";
+  }
+    </script>
+  <button onclick = "logout()">Logout</button>
+  <script>
+  function logout(){
+    var r = confirm("Are You Sure You Wish to Log Out?\nEither OK or Cancel.");
+    if(r == true)
+      document.location.href = "login";
+  }
+    </script>
+    </bottom>
+  </body>
+  </center>
+</html>

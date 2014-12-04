@@ -31,6 +31,10 @@ router.get('/Yugioh', function(req,res){
 	res.render('yugioh');
 });
 
+router.get('/endgame', function(req,res){
+	res.render('endgame');
+})
+
 router.get('/online', function(req,res){
 	res.render('online');
 });
