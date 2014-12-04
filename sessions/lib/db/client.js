@@ -20,12 +20,6 @@ function createURL(request){
   };
 }
 
-//just something that prompt needs
-function onErr(err) {
-  console.log(err);
-  return 1;
-}
-
 /**
  * A function to create a response handler.
  */

@@ -6,9 +6,7 @@ drop table if exists backOfCard;
 create table users (
   	uid SERIAL,
   	fname varchar(50),
-  	lname varchar(50),
   	password varchar(25),
-  	age int,
   	primary key (uid)
 );
 
@@ -17,22 +15,6 @@ create table pokemon (
 	name varchar(200),
 	primary key (pid)
 );
-
-create table corner(
-	pid SERIAL,
-	name varchar(50),
-	primary key(pid)
-);
-
-insert into corner values(1, 'corner');
-
-create table backOfCard(
-	pid SERIAL,
-	name varchar(50),
-	primary key(pid)
-);
-
-insert into backOfCard values(1, 'backOfCard');
 
 insert into users values (1, 'Jessie', 'Rocket');
 insert into users values (2, 'James', 'Rocket');
