@@ -2,9 +2,9 @@ body {
   padding: 20px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #0000FF;
-  background-image: url("https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/docs/Zach's profile.png");
+  background-image: url("https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/docs/Endgamescreen.png");
   background-position: 0px 0px;
-  background-size: 100% auto;
+  background-size: 1355px 702px;
   background-repeat: no-repeat;
 }
 
@@ -14,7 +14,7 @@ a {
 
 button{
   position: relative;
-  top: 550px;
+  top: 650px;
   left: 36px;
   padding-left: 13px;
   padding-right: 13px;

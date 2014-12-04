@@ -5,10 +5,21 @@
   </head>
   <center><body background = "https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/docs/online.png">
     <h1><font color = 'white'>Online Users</h1>
-      <form method="post" action="/main/auth">
       <body><font color = 'white'> SquirtleLover</body></p>
       <body>YugiohFan</body></p>
-      <button>Find Opponent</button>
+      <button onclick = "gotogame()">Find an Opponent</button>
+      <script>
+        function gotogame(){
+          var r = confirm("One moment...Finding a twerp.");
+          if(r == true)
+            document.location.href = "login";
+          //"setTimeout(function(){alert('Hello')},3000)"
+        }
+        
+        
+        
+    </script>
+      <form method="post" action="/main/home">
       <button>Back</button>
       </form>
   </body></center>
