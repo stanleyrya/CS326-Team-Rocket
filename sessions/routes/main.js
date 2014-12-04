@@ -112,7 +112,7 @@ router.get('/pickpokemon', function(req,res){
 	var client = require('../lib/db/client.js');
 	client.getData('pictures',function(data){
 		console.log(data);
-		res.render('game',{pokemon : JSON.parse(data)});
+		res.render('pickpokemon',{pokemon : JSON.parse(data)});
 	})
 });
 
