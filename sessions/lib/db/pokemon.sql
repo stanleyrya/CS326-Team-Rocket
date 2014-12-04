@@ -7,17 +7,21 @@ create table users (
   	uid SERIAL,
   	fname varchar(50),
   	password varchar(25),
+  	chosen varchar(50),
   	primary key (uid)
 );
 
 create table pokemon (
 	pid SERIAL,
 	name varchar(200),
+	realName varchar(50),
 	primary key (pid)
 );
 
 insert into users values (1, 'Jessie', 'Rocket');
 insert into users values (2, 'James', 'Rocket');
+insert into users values(3, 'SquirtleLover', 'Rocket','Abra');
+insert into users values(3, 'Yugiohfan', 'Rocket', 'Squirtle');
 
 insert into pokemon values
 	(1,'https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/sessions/lib/db/card%20pictures/Bulbasaur.png'),

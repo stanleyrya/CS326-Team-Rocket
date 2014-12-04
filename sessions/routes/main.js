@@ -71,7 +71,7 @@ router.get('/logout', function(req, res) {
 
 router.get('/home', function(req,res){
 	handleLoginStatus(req,res);
-	res.render('home');
+	res.render(online[req.session.user.uid].fname);
 
 });
 
