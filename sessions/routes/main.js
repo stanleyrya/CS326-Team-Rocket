@@ -51,6 +51,16 @@ router.get('/game', function(req,res){
 	})
 });
 
+router.get('/gameState', function(req,res){
+	var client = require('../lib/db/client.js');
+	client.getData('gameState',function(data){
+		console.log(data);
+		if(data !== 'running'){
+			res.send('/main/home');
+		}
+	})
+});
+
 router.get('/chat', function(req,res){
 	res.render('chat');
 });

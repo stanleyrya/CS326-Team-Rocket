@@ -3,7 +3,7 @@
   <head>
     <link rel='stylesheet' href='/stylesheets/game.css' />
   </head>
-  <h1><font color = 'white'>
+  <h1 id = 'h1'><font color = 'white'>
   Your Pokemon-
   </h1>
   <object id ="chat" data=http://localhost:4000/> 
@@ -84,7 +84,27 @@ function handleClick(element){
   element.src = "https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/sessions/lib/db/card%20pictures/Back.png";
 }
 
+// var client = require('../lib/db/client.js');
+// client.getData('gameState',function(data){
+  
+// });
 
+function checkGameState() {
+  $.ajax({
+    url: "/main/gameState",
+    type: "GET",
+    timeout: 5000,
+
+    success: function(data) {
+      window.location = data;
+    },
+
+    error: function() {
+      console.log('process error');
+    }
+  });
+}
+var interval = setInterval(checkGameState, 10000);
 </script>
   </body>
 </html>
