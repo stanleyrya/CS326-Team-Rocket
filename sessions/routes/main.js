@@ -71,7 +71,10 @@ router.get('/logout', function(req, res) {
 
 router.get('/home', function(req,res){
 	handleLoginStatus(req,res);
-	res.render(online[req.session.user.uid].fname);
+	var user = req.session.user;
+	console.log('is user working ' + online[user.uid]);
+	console.log('about to print this' + JSON.parse(online[user.uid])[0].fname);
+	res.render(JSON.parse(online[user.uid])[0].fname);
 
 });
 

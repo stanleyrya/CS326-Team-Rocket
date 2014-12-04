@@ -96,7 +96,7 @@ function lookup(fname,password,res){
       return true;
     };
 
-    client.query('select * from users where fname=$1 and password=$2', ['Jessie','Rocket'],function(err, result) {
+    client.query('select * from users where fname=$1 and password=$2', [fname,password],function(err, result) {
 
       // handle an error from the query
       if(handleError(err)) return;
