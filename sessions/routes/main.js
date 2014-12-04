@@ -122,7 +122,7 @@ router.get('/gameState', function(req,res){
 	client.getData('gameState',function(data){
 		console.log(data);
 		if(data !== 'running'){
-			res.send('/main/home');
+			res.send('/main/endgame');
 		}
 	})
 });
