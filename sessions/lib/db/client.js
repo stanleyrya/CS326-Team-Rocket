@@ -8,7 +8,6 @@ function createURL(request){
   var urlStr = 'http://localhost:5000';
   var query = {};
   query.command = request;
-  console.log(request + "      ////     " + query.command);
   urlStr += '?' + querystring.stringify(query);
 
   var url = Url.parse(urlStr);

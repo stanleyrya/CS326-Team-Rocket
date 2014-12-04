@@ -12,6 +12,12 @@ var server = http.createServer(function(req, res) {
     case 'pictures':
       getPictures(res);
       break;
+    case 'endGame':
+      endGame(res);
+      break;
+    case 'gameState':
+      gameState(res);
+      break;
     default:
       console.log('Wrong query: ' + query);
       process.exit(1);
@@ -46,9 +52,25 @@ function getPictures(res){
       res.writeHead(200, {'content-type': 'text/json'});
       var pictures = JSON.stringify(result.rows);
       console.log(pictures);
+      game = 'running';
       res.end(pictures);
     });
   })
+}
+
+var game;
+
+function endGame(res){
+  game = 'over';
+  res.writeHead(500, {'content-type': 'text/plain'});
+  res.end('GAME OVER!');
+  console.log('end game');
+}
+
+function gameState(res){
+  res.writeHead(500, {'content-type': 'text/plain'});
+  res.end(game);
+  console.log('Game State: '+ game);
 }
 
 server.listen(5000);
