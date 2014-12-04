@@ -1,0 +1,14 @@
+table{
+	position: relative;
+	left:500;
+	top:500;
+
+}
+
+h1{
+	font-size: 40px;
+	color: #0000FF;
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+}
