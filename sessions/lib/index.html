@@ -6,10 +6,10 @@
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body { font: 13px Helvetica, Arial; background: #0000FF;}
     
-
-      
-      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; } 
+      form { background: #000; padding: 3px; position: 400px; width: 100%; }
         form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; } 
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; } 
+      
       #messages { list-style-type: none; margin: 0; padding: 0; }
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #FF0000; }
@@ -17,9 +17,7 @@
    
   </head>
   <body>
-  <style>
-  form { background: #000; padding: 3px; position: 400px; width: 100%; }
-  </style>
+
     <ul id="messages"></ul>
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
@@ -40,7 +38,7 @@
     });
     
     </script>
-    <script>
+        <script>
     var speed=10
 
 var currentpos=0,alt=1,curpos1=0,curpos2=-1
@@ -111,5 +109,6 @@ setInterval("scrollwindow()",50)
 
 window.onload=initialize
     </script>
+
   </body>
 </html>
