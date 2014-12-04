@@ -1,18 +1,25 @@
 var Url = require('url');
 var http = require('http');
+var querystring = require('querystring');
 var options;
 
 // The url to connect to:
-var urlStr = 'http://localhost:5000';
+function createURL(request){
+  var urlStr = 'http://localhost:5000';
+  var query = {};
+  query.command = request;
+  console.log(request + "      ////     " + query.command);
+  urlStr += '?' + querystring.stringify(query);
 
-var url = Url.parse(urlStr);
+  var url = Url.parse(urlStr);
 
-options = {
-    host: url.hostname,
-    path: url.path,
-    port: url.port || 80,
-    method: 'GET'
-};
+  options = {
+      host: url.hostname,
+      path: url.path,
+      port: url.port || 80,
+      method: 'GET'
+  };
+}
 
 //just something that prompt needs
 function onErr(err) {
@@ -46,7 +53,8 @@ function createResponseHandler (callback) {
   return responseHandler;
 }
 
-function getData(callback){
+function getData(command, callback){
+  createURL(command);
   var req = http.request(options, createResponseHandler(function (data) {
     callback(data);
   }));
