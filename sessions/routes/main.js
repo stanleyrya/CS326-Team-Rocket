@@ -47,7 +47,8 @@ router.get('/game', function(req,res){
 	var client = require('../lib/db/client.js');
 	client.getData('pictures',function(data){
 		console.log(data);
-		res.render('game',{pokemon : data});
+		res.render('game',{pokemon : JSON.parse(data)});
+	})
 });
 
 router.get('/chat', function(req,res){
