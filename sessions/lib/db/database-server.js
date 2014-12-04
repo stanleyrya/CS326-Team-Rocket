@@ -1,42 +1,25 @@
-/*var http = require('http');\
-
-//query tools
-var index = require('./index.js');
-
-function pictureHandler(request, response){ //do we want to return an array/whatever of images??
-  response.writeHead(200, { 'Content-Type' : 'text/location'});
-
-  var images;
-  var that = this;
-
-  index.getPictures(function(err, data){
-    if (err) {
-      throw err;
-    }
-    else {
-      console.log(data);
-      images = data;
-      that.emit('ready');
-  }});
-  
-  this.on('done', function (data) {
-    console.log(JSON.stringify(images));
-    response.write(JSON.stringify(images));
-    response.end;
-  });
-}
-var server = http.createServer(pictureHandler);
-server.listen(5000);
-console.log('Server is listening!');*/
-////////////////////////////////////////////////////////////////////
 var http = require('http');
 var pg = require('pg');
+var querystring = require('querystring');
 
 var conString = "postgres://student:student@localhost/student";
 
 var server = http.createServer(function(req, res) {
 
-  // get a pg client from the connection pool
+  var query = querystring.parse(req.url.split('?')[1]);
+
+  switch(query.command){
+    case 'pictures':
+      getPictures(res);
+      break;
+    default:
+      console.log('Wrong query: ' + query);
+      process.exit(1);
+  }
+});
+
+function getPictures(res){
+// get a pg client from the connection pool
   pg.connect(conString, function(err, client, done) {
 
     var handleError = function(err) {
@@ -66,7 +49,7 @@ var server = http.createServer(function(req, res) {
       res.end(pictures);
     });
   })
-});
+}
 
 server.listen(5000);
 console.log('Server is listening!');

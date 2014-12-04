@@ -44,18 +44,11 @@ router.get('/newuser', function(req,res){
 });
 
 router.get('/game', function(req,res){
-	// var client = require('../lib/db/client.js');
-	// client.setData(function(data){
-	// 	res.render('game',{pokemon : null});
-	// });
-
-	client(function(data){
+	var client = require('../lib/db/client.js');
+	client.getData('pictures',function(data){
 		console.log(data);
 		res.render('game',{pokemon : data});
-	});
-
-	// client.getData();
-	// res.render('game');
+	})
 });
 
 router.get('/chat', function(req,res){
@@ -63,60 +56,3 @@ router.get('/chat', function(req,res){
 });
 
 module.exports = router;
-
-
-//---------------------------------------------------------------------
-var client = function(cb){
-	var Url = require('url');
-	var http = require('http');
-	var options;
-
-	// The url to connect to:
-	var urlStr = 'http://localhost:5000';
-
-	var url = Url.parse(urlStr);
-
-	options = {
-	    host: url.hostname,
-	    path: url.path,
-	    port: url.port || 80,
-	    method: 'GET'
-	};
-
-	//just something that prompt needs
-	function onErr(err) {
-	  console.log(err);
-	  return 1;
-	}
-
-	/**
-	 * A function to create a response handler.
-	 */
-	function createResponseHandler (callback) {
-	  /**
-	   * A function to handle a response.
-	   */
-	  function responseHandler(res) {
-	    // A variable to capture the data from the response:
-	    var str = '';
-
-	    // When data is received we append to string.
-	    res.on('data', function (chunk) {
-	      str += chunk;
-	    });
-
-	    // When the connection is closed, we invoke our callback.
-	    res.on('end', function () {
-	      callback(str);
-	    });
-	  }
-
-	  // Return the created function:
-	  return responseHandler;
-	}
-
-	var req = http.request(options, createResponseHandler(function (data) {
-	  cb(data);
-	}));
-	req.end();
-}
