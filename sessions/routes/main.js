@@ -77,9 +77,7 @@ router.get('/logout', function(req, res) {
   res.redirect('/main/login');
 });
 
-router.post('/home', function(req,res){
-	res.redirect('home');
-})
+
 router.get('/home', function(req,res){
 	var user = req.session.user;
 	handleLoginStatus(req,res);
@@ -90,7 +88,7 @@ router.get('/home', function(req,res){
 router.get('/endgame', function(req,res){
 	handleLoginStatus(req,res);
 	res.render('endgame');
-})
+});
 
 router.get('/online', function(req,res){
 	handleLoginStatus(req,res);
@@ -101,14 +99,14 @@ router.get('/online', function(req,res){
 router.get('/game', function(req,res){
 	//hardcodeing
 	var user = req.session.user;
-	user = online[user.uid];
-	if(user.fname === 'SquirtleLover'){
+	user = JSON.parse(online[user.uid])[0];
+	if(user.fname === 'SquirtleLover') {
 		user['friend'] = 'Yugiohfan';
-		user['chosen'] = 'Abra';
+		user['chosen'] = 'Squirtle';
 	}
 	else{
 		user['friend'] = 'SquirtleLover';
-		user['chosen'] = 'Squirtle';
+		user['chosen'] = 'Abra';
 	}
 	var fake = user;
 
