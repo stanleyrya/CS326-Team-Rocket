@@ -71,23 +71,12 @@ router.post('/home', function(req,res){
 router.get('/home', function(req,res){
 	var user = req.session.user;
 	handleLoginStatus(req,res);
-
-	console.log(online[user.uid]);
 	res.render(JSON.parse(online[user.uid])[0].fname);
 
 });
 
-router.get('/SquirtleLover', function(req,res){
-	handleLoginStatus(req,res);
-	res.render('squirtlelover');
-});
-
-router.get('/Yugioh', function(req,res){
-	handleLoginStatus(req,res);
-	res.render('yugioh');
-});
-
 router.get('/endgame', function(req,res){
+	handleLoginStatus(req,res);
 	res.render('endgame');
 })
 
@@ -98,7 +87,6 @@ router.get('/online', function(req,res){
 
 
 router.get('/game', function(req,res){
-	
 	handleLoginStatus(req,res);
 	var client = require('../lib/db/client.js');
 	client.getData('pictures',function(data){

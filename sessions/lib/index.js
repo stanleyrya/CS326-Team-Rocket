@@ -2,9 +2,13 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+var users = {};
+
 app.get('/', function(req, res){
   res.sendfile(__dirname + '/index.html');
 });
+
+app.put('/answer');
 
 io.on('connection', function(socket){
   socket.on('chat message', function(msg){
