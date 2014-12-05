@@ -37,16 +37,28 @@ router.post('/auth', function(req, res) {
     // Perform the user lookup.
 	var client = require('../lib/db/client.js');
 	client.getData('lookup,'+username+','+password,function(user){
-		console.log(user);
 		if(user === 'error'){
         	res.redirect('/main/login');
     	}
     	else {
         // Store the user in our in memory database.
-        online[user.uid] = user;
+        //console.log('auth: 1 ' + JSON.parse(online[user.uid]));
+        //user[0] = user;
+        user = JSON.parse(user);
+        console.log(user.uid);
         req.session.user = user;
+        online[user.uid] = user;
+        console.log('auth: 2 ' + online[user.uid]);
         res.redirect('/main/home');
-        }
+    }
+
+        // console.log('FUCK THIS: ' + fake.uid);
+        // req.session.user = fake;
+        // online[fake.uid] = fake;
+        // console.log(online[3]);
+        // console.log('auth: 2 ' + online[fake.uid]);
+        // res.redirect('/main/home');
+        // }
 	});
   }
 });
@@ -71,7 +83,7 @@ router.post('/home', function(req,res){
 router.get('/home', function(req,res){
 	var user = req.session.user;
 	handleLoginStatus(req,res);
-	res.render(JSON.parse(online[user.uid])[0].fname);
+	res.render(online[user.uid].fname);
 
 });
 
@@ -89,9 +101,15 @@ router.get('/online', function(req,res){
 router.get('/game', function(req,res){
 	//hardcodeing
 	var user = req.session.user;
-	user = JSON.parse(online[user.uid])[0];
-	if(user.fname === 'SquirtleLover') user['friend'] = 'Yugiohfan';
-	else user['friend'] = 'SquirtleLover';
+	user = online[user.uid];
+	if(user.fname === 'SquirtleLover'){
+		user['friend'] = 'Yugiohfan';
+		user['chosen'] = 'Abra';
+	}
+	else{
+		user['friend'] = 'SquirtleLover';
+		user['chosen'] = 'Squirtle';
+	}
 	var fake = user;
 
 	handleLoginStatus(req,res);
@@ -100,7 +118,7 @@ router.get('/game', function(req,res){
 		var user = req.session.user;
 		console.log(data);
 		res.render('game',{pokemon : JSON.parse(data),
-							pickPokemon :JSON.parse(online[user.uid]),
+							pickPokemon :online[user.uid],
 							  user : fake});
 	})
 });
@@ -118,7 +136,7 @@ router.get('/pickpokemon', function(req,res){
 router.get('/chat', function(req,res){
 	//hardcodeing
 	var user = req.session.user;
-	user = JSON.parse(online[user.uid])[0];
+	user = online[user.uid];
 	if(user.fname === 'SquirtleLover') user['friend'] = 'Yugiohfan';
 	else user['friend'] = 'SquirtleLover';
 

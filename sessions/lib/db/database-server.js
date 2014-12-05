@@ -103,7 +103,7 @@ function lookup(fname,password,res){
 
       done();
       res.writeHead(200, {'content-type': 'text/json'});
-      var user = JSON.stringify(result.rows);
+      var user = JSON.stringify(result.rows[0]);
       //assume that we got the correct one
       console.log(user);
       res.end(user);
