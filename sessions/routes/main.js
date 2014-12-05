@@ -65,6 +65,9 @@ router.get('/logout', function(req, res) {
   res.redirect('/main/login');
 });
 
+router.post('/home', function(req,res){
+	res.redirect('home');
+})
 router.get('/home', function(req,res){
 	var user = req.session.user;
 	handleLoginStatus(req,res);
@@ -93,9 +96,6 @@ router.get('/online', function(req,res){
 	res.render('online');
 });
 
-router.post('/auth1', function(req,res){
-	res.redirect('/main/newuser');
-});
 
 router.get('/game', function(req,res){
 	
