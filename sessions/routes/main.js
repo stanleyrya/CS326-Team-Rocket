@@ -96,7 +96,10 @@ router.get('/online', function(req,res){
 });
 
 
-router.get('/game', function(req,res){
+router.post('/game', function(req,res){
+	var username = req.body.username;
+    var password = req.body.password;
+
 	//hardcodeing
 	var user = req.session.user;
 	user = JSON.parse(online[user.uid])[0];
