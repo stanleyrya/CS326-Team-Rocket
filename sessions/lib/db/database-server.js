@@ -47,7 +47,7 @@ function getPictures(res){
       return true;
     };
 
-    client.query('select name from pokemon P', function(err, result) {
+    client.query('select name, realName from pokemon P', function(err, result) {
 
       // handle an error from the query
       if(handleError(err)) return;

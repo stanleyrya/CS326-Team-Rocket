@@ -96,31 +96,54 @@ router.get('/online', function(req,res){
 });
 
 
-router.post('/game', function(req,res){
-	var username = req.body.username;
-    var password = req.body.password;
+router.post('/game/start', function(req,res){
+	console.log(JSON.stringify(req.data));
+
+	var data;
+	var i = 0;
+	var realName;
+    var name;
+	JSON.parse(JSON.stringify(req.body),function(k,v){
+		console.log('this is v: ' + v);
+		if(i == 0){
+			realName = v;
+		}
+		if(i == 1){
+			name = v;
+		}
+		i++;
+	});
+
+	console.log('realName ' + realName);
+	console.log('name ' + name);
 
 	//hardcodeing
 	var user = req.session.user;
-	user = JSON.parse(online[user.uid])[0];
+	user = online[user.uid];
+
 	if(user.fname === 'SquirtleLover') {
 		user['friend'] = 'Yugiohfan';
-		user['chosen'] = 'Squirtle';
 	}
 	else{
 		user['friend'] = 'SquirtleLover';
-		user['chosen'] = 'Abra';
 	}
-	var fake = user;
+	user['chosen'] = realName;
+	user['chosenimage'] = name;
 
+	console.log('fake: '+JSON.stringify(user));
+});
+
+router.get('/game',function(req,res){
+
+	var user = req.session.user;
+	user = online[user.uid];
 	handleLoginStatus(req,res);
 	var client = require('../lib/db/client.js');
-	client.getData('pictures',function(data){
-		var user = req.session.user;
-		console.log(data);
-		res.render('game',{pokemon : JSON.parse(data),
+	client.getData('pictures',function(d){
+		console.log(d);
+		res.render('game',{pokemon : JSON.parse(d),
 							pickPokemon :online[user.uid],
-							  user : fake});
+							  user : user});
 	})
 });
 
@@ -128,7 +151,7 @@ router.get('/pickpokemon', function(req,res){
 	handleLoginStatus(req,res);
 	var client = require('../lib/db/client.js');
 	client.getData('pictures',function(data){
-		console.log(data);
+		console.log('picture objects: ' + data);
 		res.render('pickpokemon',{pokemon : JSON.parse(data)});
 								  
 	})
