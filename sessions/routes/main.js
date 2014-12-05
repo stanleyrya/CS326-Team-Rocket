@@ -12,10 +12,7 @@ router.post('/change', function(req,res){
 });
 
 router.get('/login', function(req, res){
-  //var authmessage = req.flash('auth') || '';
-
   var user  = req.session.user;
-
   if (user !== undefined && online[user.uid] !== undefined) {
     res.redirect('/main/home');
   }
@@ -42,7 +39,6 @@ router.post('/auth', function(req, res) {
 	client.getData('lookup,'+username+','+password,function(user){
 		console.log(user);
 		if(user === 'error'){
-			//req.flash('auth', error);
         	res.redirect('/main/login');
     	}
     	else {
@@ -70,10 +66,10 @@ router.get('/logout', function(req, res) {
 });
 
 router.get('/home', function(req,res){
-	handleLoginStatus(req,res);
 	var user = req.session.user;
-	console.log('is user working ' + online[user.uid]);
-	console.log('about to print this' + JSON.parse(online[user.uid])[0].fname);
+	handleLoginStatus(req,res);
+
+	console.log(online[user.uid]);
 	res.render(JSON.parse(online[user.uid])[0].fname);
 
 });
@@ -102,11 +98,14 @@ router.post('/auth1', function(req,res){
 });
 
 router.get('/game', function(req,res){
+	
 	handleLoginStatus(req,res);
 	var client = require('../lib/db/client.js');
 	client.getData('pictures',function(data){
+		var user = req.session.user;
 		console.log(data);
-		res.render('game',{pokemon : JSON.parse(data)});
+		res.render('game',{pokemon : JSON.parse(data),
+							pickPokemon :JSON.parse(online[user.uid])});
 	})
 });
 
@@ -116,6 +115,7 @@ router.get('/pickpokemon', function(req,res){
 	client.getData('pictures',function(data){
 		console.log(data);
 		res.render('pickpokemon',{pokemon : JSON.parse(data)});
+								  
 	})
 });
 

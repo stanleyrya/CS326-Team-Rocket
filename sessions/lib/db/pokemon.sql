@@ -18,8 +18,8 @@ create table pokemon (
 	primary key (pid)
 );
 
-insert into users values (1, 'Jessie', 'Rocket');
-insert into users values (2, 'James', 'Rocket');
+insert into users values (1, 'Jessie', 'Rocket', 'Abra');
+insert into users values (2, 'James', 'Rocket', 'Squirtle');
 insert into users values(3, 'SquirtleLover', 'Rocket','Abra');
 insert into users values(4, 'Yugiohfan', 'Rocket', 'Squirtle');
 
