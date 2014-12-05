@@ -119,9 +119,17 @@ router.get('/gameState', function(req,res){
 });
 
 router.get('/chat', function(req,res){
+	//hardcodeing
+	var user = req.session.user;
+	user = JSON.parse(online[user.uid])[0];
+	if(user.fname === 'SquirtleLover') user['friend'] = 'Yugiohfan';
+	else user['friend'] = 'SquirtleLover';
+
 	console.log('trying to access chat');
 	handleLoginStatus(req,res);
-	res.render('realChat');
+	//var user = req.session.user;
+	console.log(user);
+	res.render('realChat',{user : user});
 });
 
 module.exports = router;

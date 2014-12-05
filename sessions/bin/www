@@ -10,27 +10,34 @@ var server = app.listen(app.get('port'), function() {
 
 var io = require('socket.io').listen(server);
 
-//online = {};
+online = {};
 
 io.on('connection', function(socket){
     console.log('connected to chat!');
     var user;
-    socket.on('new user', function(user){
+    socket.on('new user', function(thisuser){
+    	console.log(thisuser);
     	user = thisuser;
-    	user.socket = socket;
-    	online[user.fname] = user;
+    	user['socket'] = socket;
+    	if(online[user.fname] !== null){
+    		online[user.fname] = user;
+    	}
     	console.log('set user?');
     });
-    socket.on('chat message', function(msg){
-    	//var msg = data[0];
-    	//var thisuser = data[1];
-    	//checkOnline(thisuser,socket);
-        if(msg === 'Squirtle'){//user.choice){
-            var client = require('../lib/db/client.js');
-            client.getData('endGame',function(data){
-                console.log(data);
-            })
-        }
+    socket.on('chat message', function(data){
+    	msg = data[0];
+    	user = data[1];
+    	if(online[user['friend']] !== null){
+    		console.log([online[user['friend']]]);
+    		var friendChoice = online[user['friend']]['chosen'];
+    		console.log(friendChoice);
+	        if(msg === friendChoice){
+	            var client = require('../lib/db/client.js');
+	            client.getData('endGame',function(data){
+	                console.log(data);
+	            })
+	        }
+    	}
         io.emit('chat message', msg);
     });
 });
