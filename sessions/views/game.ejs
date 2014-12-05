@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+  <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+  <script>
+  var socket = io();
+  socket.on('game over', function(){
+    window.location = '/main/endgame';
+  });
+  var user = <%- JSON.stringify(user) %>;
+  socket.emit('new user',user);
+  </script>
+
   <head>
     <link rel='stylesheet' href='/stylesheets/game.css' />
   </head>
@@ -90,23 +100,6 @@ function handleClick(element){
   }
 
 }
-
-function checkGameState() {
-  $.ajax({
-    url: "/main/gameState",
-    type: "GET",
-    timeout: 5000,
-
-    success: function(data) {
-      window.location = data;
-    },
-
-    error: function() {
-      console.log('process error');
-    }
-  });
-}
-var interval = setInterval(checkGameState, 500);
 </script>
   </body>
 </html>

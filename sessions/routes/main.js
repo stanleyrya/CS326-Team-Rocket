@@ -87,13 +87,21 @@ router.get('/online', function(req,res){
 
 
 router.get('/game', function(req,res){
+	//hardcodeing
+	var user = req.session.user;
+	user = JSON.parse(online[user.uid])[0];
+	if(user.fname === 'SquirtleLover') user['friend'] = 'Yugiohfan';
+	else user['friend'] = 'SquirtleLover';
+	var fake = user;
+
 	handleLoginStatus(req,res);
 	var client = require('../lib/db/client.js');
 	client.getData('pictures',function(data){
 		var user = req.session.user;
 		console.log(data);
 		res.render('game',{pokemon : JSON.parse(data),
-							pickPokemon :JSON.parse(online[user.uid])});
+							pickPokemon :JSON.parse(online[user.uid]),
+							  user : fake});
 	})
 });
 
@@ -104,17 +112,6 @@ router.get('/pickpokemon', function(req,res){
 		console.log(data);
 		res.render('pickpokemon',{pokemon : JSON.parse(data)});
 								  
-	})
-});
-
-router.get('/gameState', function(req,res){
-	handleLoginStatus(req,res);
-	var client = require('../lib/db/client.js');
-	client.getData('gameState',function(data){
-		console.log(data);
-		if(data !== 'running'){
-			res.send('/main/endgame');
-		}
 	})
 });
 

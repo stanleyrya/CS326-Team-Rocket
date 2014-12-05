@@ -32,13 +32,14 @@ io.on('connection', function(socket){
     		var friendChoice = online[user['friend']]['chosen'];
     		console.log(friendChoice);
 	        if(msg === friendChoice){
-	            var client = require('../lib/db/client.js');
-	            client.getData('endGame',function(data){
-	                console.log(data);
-	            })
+    			console.log('should be ending...');
+    			online[user['friend']]['socket'].emit('game over'); //lose :(
+    			socket.emit('game over'); //win!!
 	        }
+	        online[user['friend']]['socket'].emit('chat message', msg);
+	        socket.emit('chat message', msg);
     	}
-        io.emit('chat message', msg);
+        //io.emit('chat message', msg);
     });
 });
 
