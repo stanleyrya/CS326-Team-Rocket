@@ -119,8 +119,9 @@ router.get('/gameState', function(req,res){
 });
 
 router.get('/chat', function(req,res){
+	console.log('trying to access chat');
 	handleLoginStatus(req,res);
-	res.render('chat');
+	res.render('realChat');
 });
 
 module.exports = router;
