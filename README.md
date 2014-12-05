@@ -22,24 +22,24 @@ but we want people to be able to spectate other peoples games!
 
 # How To Run  
 
- -Open a terminal window
- -Navigate to "team-rocket/sessions/lib/db"
- -Within bin execute "node database-server.js"
- -Open a second terminal window
- -Navigate to "team-rocket/sessions/bin"
- -Within db execute "./www"
- -Open an Internet browser
- -Navigate to "localhost:3000"
- -On the main splash screen click the button "Then Click Here"
- -Log in with Username: SquirtleLover Password: Rocket
- -Scroll to the bottom and click "Play Game"
- -On the next screen click "Find an Opponent" 
- -On the pop up window click "OK"
- -You will be directed to a screen to pick your Pokemon 
- -Pick Abra
- -The next screen is the main game screen with the chat window
- -Start Playing
- -ENJOY!
+ - Open a terminal window
+ - Navigate to "team-rocket/sessions/lib/db"
+ - Within bin execute "node database-server.js"
+ - Open a second terminal window
+ - Navigate to "team-rocket/sessions/bin"
+ - Within db execute "./www"
+ - Open an Internet browser
+ - Navigate to "localhost:3000"
+ - On the main splash screen click the button "Then Click Here"
+ - Log in with Username: SquirtleLover Password: Rocket
+ - Scroll to the bottom and click "Play Game"
+ - On the next screen click "Find an Opponent" 
+ - On the pop up window click "OK"
+ - You will be directed to a screen to pick your Pokemon 
+ - Pick Abra
+ - The next screen is the main game screen with the chat window
+ - Start Playing
+ - ENJOY!
  
 
 # Original Proposal
