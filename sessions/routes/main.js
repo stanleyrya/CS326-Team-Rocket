@@ -99,7 +99,7 @@ router.get('/online', function(req,res){
 router.get('/game', function(req,res){
 	//hardcodeing
 	var user = req.session.user;
-	user = JSON.parse(online[user.uid])[0];
+	//user = JSON.parse(online[user.uid])[0];
 	if(user.fname === 'SquirtleLover') {
 		user['friend'] = 'Yugiohfan';
 		user['chosen'] = 'Squirtle';
