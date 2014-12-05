@@ -14,15 +14,27 @@ online = {};
 
 io.on('connection', function(socket){
     console.log('connected to chat!');
-    var user;
-    socket.on('new user', function(thisuser){
-    	console.log(thisuser);
-    	user = thisuser;
+    socket.on('new user', function(user){
     	user['socket'] = socket;
-    	if(online[user.fname] !== null){
-    		online[user.fname] = user;
-    	}
-    	console.log('set user?');
+    	online[user.fname] = user;
+    	console.log("game: " + user);
+    	// if(online[user.fname] === null){
+    	// 	online[user.fname] = user;
+    	// }
+    	// else{
+    	// 	online[user.fname]['socket'] = socket;
+    	// }
+    });
+    socket.on('chat connect', function(user){
+    	user['chat'] = socket;
+    	online[user.fname]['chat'] = socket;
+    	console.log("chat: " + user);
+    	// if(online[user.fname] === null){
+    	// 	online[user.fname] = user;
+    	// }
+    	// else{
+    	// 	online[user.fname]['chat'] = socket;
+    	// }
     });
     socket.on('chat message', function(data){
     	msg = data[0];
@@ -34,10 +46,10 @@ io.on('connection', function(socket){
 	        if(msg === friendChoice){
     			console.log('should be ending...');
     			online[user['friend']]['socket'].emit('game over'); //lose :(
-    			socket.emit('game over'); //win!!
+    			online[user.fname]['socket'].emit('game over'); //win!!
 	        }
-	        online[user['friend']]['socket'].emit('chat message', msg);
 	        socket.emit('chat message', msg);
+	        online[user['friend']]['chat'].emit('chat message', msg);
     	}
         //io.emit('chat message', msg);
     });
