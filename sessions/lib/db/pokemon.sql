@@ -7,7 +7,7 @@ create table users (
   	uid SERIAL,
   	fname varchar(50),
   	password varchar(25),
-  	chosen varchar(50),
+  	chosen varchar(200),
   	primary key (uid)
 );
 
@@ -20,8 +20,8 @@ create table pokemon (
 
 insert into users values (1, 'Jessie', 'Rocket', 'Abra');
 insert into users values (2, 'James', 'Rocket', 'Squirtle');
-insert into users values(3, 'SquirtleLover', 'Rocket','Abra');
-insert into users values(4, 'Yugiohfan', 'Rocket', 'Squirtle');
+insert into users values(3, 'SquirtleLover', 'Rocket','https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/sessions/lib/db/card%20pictures/Abra.png');
+insert into users values(4, 'Yugiohfan', 'Rocket', 'https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/sessions/lib/db/card%20pictures/Squirtle.png');
 
 insert into pokemon values
 	(1,'https://raw.githubusercontent.com/umass-cs-326/team-rocket/master/sessions/lib/db/card%20pictures/Bulbasaur.png', 'Bulbasaur'),
