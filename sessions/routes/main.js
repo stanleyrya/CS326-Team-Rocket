@@ -50,15 +50,7 @@ router.post('/auth', function(req, res) {
         online[user.uid] = user;
         console.log('auth: 2 ' + online[user.uid]);
         res.redirect('/main/home');
-    }
-
-        // console.log('FUCK THIS: ' + fake.uid);
-        // req.session.user = fake;
-        // online[fake.uid] = fake;
-        // console.log(online[3]);
-        // console.log('auth: 2 ' + online[fake.uid]);
-        // res.redirect('/main/home');
-        // }
+    	}
 	});
   }
 });
@@ -120,7 +112,6 @@ router.post('/game/start', function(req,res){
 	//hardcodeing
 	var user = req.session.user;
 	user = online[user.uid];
-
 	if(user.fname === 'SquirtleLover') {
 		user['friend'] = 'Yugiohfan';
 	}
