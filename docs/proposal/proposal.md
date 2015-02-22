@@ -1,5 +1,5 @@
 
-![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
+![logo](https://github.com/stanleyrya/CS326-Team-Rocket/raw/master/docs/logo.png)
 
 Logo Edited by KF, 10/01/14
 
@@ -66,7 +66,7 @@ The Guess Who? web application is an easily accessible, modern-day browser game 
 Once another opponent has been found, the players will see an interface similar to the image below. Keep in mind that this interface is in its early alpha stages and will be updated as needed based upon the capabilities of the artist as well as critiques from beta testers. The players’ persons of interest will show up on the right-hand side of the screen. Players will then take turns asking yes or no questions about the opponent’s person of interest via the chat client, and the opponent will answer. The player then manually selects the icons eliminated based on the opponent’s answer until only one person remains. Whoever can correctly guess the others’ person of interest first wins the game.
 
 Early Alpha Interface
-![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/design.png)
+![logo](https://github.com/stanleyrya/CS326-Team-Rocket/raw/master/docs/design.png)
 
 This web application provides easy accessibility to anyone looking for a little ‘90s nostalgia without having to make a trip to a game store. The lightweight, 0-commitment design allows for a quick pvp match without the fuss of assembly, disassembly, or broken pieces. No longer will consumers search in vain for this elusive childhood game--the game is literally a click away!
 

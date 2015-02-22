@@ -1,4 +1,4 @@
-![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
+![logo](https://github.com/stanleyrya/CS326-Team-Rocket/raw/master/docs/logo.png)
 
 Project Summary
 ===============
@@ -57,7 +57,7 @@ Edited by Joe D’Agostino 11/12/14
 Birds Eye View
 ==============
 
-![Birds Eye View](https://github.com/umass-cs-326/team-rocket/raw/master/docs/Component Diagram.png)
+![Birds Eye View](https://github.com/stanleyrya/CS326-Team-Rocket/raw/master/docs/Component Diagram.png)
 
 Edited by Jade Hedrick and Ryan Stanley 11/11/2014
 

@@ -1,7 +1,7 @@
 team-rocket
 ===========
 
-![logo](https://github.com/umass-cs-326/team-rocket/raw/master/docs/logo.png)
+![logo](https://github.com/stanleyrya/CS326-Team-Rocket/raw/master/docs/logo.png)
 
 Members
 ========
