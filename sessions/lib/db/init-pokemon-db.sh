@@ -1,3 +1,3 @@
 #! /bin/bash
 
-psql --file=pokemon.sql
+psql student --file=pokemon.sql
