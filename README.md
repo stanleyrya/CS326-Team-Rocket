@@ -68,8 +68,8 @@ e. list databases with `\l` or `\list`
 a. CS326-Team-Rocket/sessions/bin  
 b. CS326-Team-Rocket/sessions/lib/db  
 2. Run these files using node:  
-a. node www  
-b. node database-server.js  
+a. `node www`  
+b. `node database-server.js`  
 
 ##Play the Game
 1. Open up two separate web browsers and navigate to “localhost:3000”  
