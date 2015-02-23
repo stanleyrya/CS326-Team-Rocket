@@ -23,6 +23,11 @@ but we want people to be able to spectate other peoples games!
 # How To Run (On Mac OS X)  
 
 Running this application requires Postgresql, Node.js, and pg.
+
+##Installing Postgresql (Application):
+1. Simply download Postgresql from: http://postgresapp.com/
+2. To access psql, simply run the application and press 'Open psql'
+
 ##Installing Postgresql (Terminal):
 1. Install Homebrew (Terminal package installer)  
 2. Install postgresql  
@@ -45,8 +50,7 @@ start: `/usr/local/var/postgres -l /usr/local/var/postgres/server.log start`
 stop: `/usr/local/var/postgres stop -s -m fast`  
 
 ##Initializing the Database
-1. Now we are going to create the database for the application!  
-`psql`  
+1. Now we are going to create the database for the application! Either start the application and press 'Open psql', or type in `psql` if you installed with Terminal. Enter these commands to psql:  
 yourusername=# `create user student createdb createuser password 'student';`  
 yourusername=# `\q`  
 2. Now you are ready to initialize the database. Head to /sessions/lib/db and run the database initialization script. Make sure it is an executable before running.  
