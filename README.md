@@ -53,7 +53,7 @@ stop: `/usr/local/var/postgres stop -s -m fast`
 1. Now we are going to create the database for the application! Either start the application and press 'Open psql', or type in `psql` if you installed with Terminal. Enter these commands to psql:  
 yourusername=# `create user student createdb createuser password 'student';`  
 yourusername=# `\q`  
-2. Now you are ready to initialize the database. Head to /sessions/lib/db and run the database initialization script. Make sure it is an executable before running.  
+2. Now you are ready to initialize the database. Head to CS326-Team-Rocket/sessions/lib/db and run the database initialization script. Make sure it is an executable before running.  
 `chmod +x init-pokemon-db.sh`  
 `./init-pokemon-db.sh`  
 3. To check if you did it right, type in this command:  
