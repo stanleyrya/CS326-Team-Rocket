@@ -20,7 +20,7 @@ Our goal to have people be able to play this game with their friends online, and
 However we are not limiting ourselves to just playing the game, 
 but we want people to be able to spectate other peoples games!
 
-# How To Run  
+# How To Run (On Mac OS X)  
 
 Running this application requires Postgresql, Node.js, and pg
 ##Installing Postgresql:
