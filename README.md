@@ -23,7 +23,7 @@ but we want people to be able to spectate other peoples games!
 # How To Run (On Mac OS X)  
 
 Running this application requires Postgresql, Node.js, and pg.
-##Installing Postgresql:
+##Installing Postgresql (Terminal):
 1. Install Homebrew (Terminal package installer)  
 2. Install postgresql  
 `sudo brew update`  
@@ -33,10 +33,16 @@ Running this application requires Postgresql, Node.js, and pg.
 `ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents`  
 4. Edit system paths to make sure we are pointing to the correct postgresql. This needs to be done because sometimes Mac OS X comes with an old version of postgresql  
 `sudo vim /etc/paths`  
- 	Make sure “/usr/local/bin” is at the top.  
+ Make sure “/usr/local/bin” is at the top.  
 5. If you had to update your paths file, reboot your Mac. To confirm that it is looking at the right postgresql, type in:  
 `which psql`  
-	If you see “usr/local/bin/psql”, you are all set!  
+If you see “usr/local/bin/psql”, you are all set!  
+6. Postgresql runs automatically on startup. If you would rather do it manually, enter these two commands:  
+`launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist`  
+`rm ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist`  
+You may now start and stop the server manually with these commands:  
+start: `/usr/local/var/postgres -l /usr/local/var/postgres/server.log start`  
+stop: `/usr/local/var/postgres stop -s -m fast`  
 
 ##Initializing the Database
 1. Now we are going to create the database for the application!  
